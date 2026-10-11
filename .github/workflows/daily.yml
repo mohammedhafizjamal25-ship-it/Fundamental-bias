@@ -1,8 +1,8 @@
 name: Update daily bias
 on:
   schedule:
-    - cron: "15 6 * * 1-5"
-    - cron: "45 12 * * 1-5"
+    - cron: "15 6 * * 1-5"   # 06:15 UTC, before London open
+    - cron: "45 12 * * 1-5"  # 12:45 UTC, before the US data window
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -15,6 +15,8 @@ jobs:
         with:
           python-version: "3.11"
       - run: python fetch_bias.py
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       - name: Commit data.json
         run: |
           git config user.name "bias-bot"
