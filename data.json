@@ -1,0 +1,181 @@
+{
+ "generated_utc": "2026-10-11 02:58",
+ "demo": false,
+ "market": {
+  "gold": 4216.3,
+  "dxy": 102.21,
+  "btc": 83012.0
+ },
+ "assets": {
+  "gold": {
+   "composite": -44.4,
+   "bias": "Strong bearish",
+   "expected": -44.4,
+   "expected_bias": "Strong bearish",
+   "confidence": 50,
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Rates and Fed policy",
+     "score": 0.0,
+     "weight": 1.5,
+     "ok": false,
+     "detail": "Data unavailable: policy: The read operation timed out"
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": 0.0,
+     "weight": 2.0,
+     "ok": false,
+     "detail": "Data unavailable: yields: The read operation timed out"
+    },
+    {
+     "key": "macro",
+     "name": "CPI, PCE, NFP, unemployment",
+     "score": 0.0,
+     "weight": 1.0,
+     "ok": false,
+     "detail": "Data unavailable: macro: The read operation timed out"
+    },
+    {
+     "key": "dollar",
+     "name": "US dollar (DXY)",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "DXY 102.21, above its 50d average (100.11), +3.1% in 1m. 60d correlation with gold: -0.49."
+    },
+    {
+     "key": "risk",
+     "name": "Geopolitical risk and safe haven",
+     "score": 0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "VIX 14.8, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
+    },
+    {
+     "key": "demand",
+     "name": "Central banks, ETFs, physical demand",
+     "score": 0.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.6% in 1m, volume x0.87. IBIT +6.4% in 1m, volume x0.96 vs 3m avg."
+    },
+    {
+     "key": "sentiment",
+     "name": "Positioning and market reaction",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 33th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 61. Crowded positioning is treated as a contrarian warning."
+    }
+   ],
+   "supports": [],
+   "headwinds": [
+    "US dollar (DXY)",
+    "Positioning and market reaction"
+   ],
+   "coverage": "4/7 factors live"
+  },
+  "btc": {
+   "composite": 22.7,
+   "bias": "Bullish",
+   "expected": 22.7,
+   "expected_bias": "Bullish",
+   "confidence": 75,
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Rates and Fed policy",
+     "score": 0.0,
+     "weight": 1.5,
+     "ok": false,
+     "detail": "Data unavailable: policy: The read operation timed out"
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": 0.0,
+     "weight": 1.0,
+     "ok": false,
+     "detail": "Data unavailable: yields: The read operation timed out"
+    },
+    {
+     "key": "macro",
+     "name": "CPI, PCE, NFP, unemployment",
+     "score": 0.0,
+     "weight": 1.0,
+     "ok": false,
+     "detail": "Data unavailable: macro: The read operation timed out"
+    },
+    {
+     "key": "dollar",
+     "name": "US dollar (DXY)",
+     "score": -2.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "DXY 102.21, above its 50d average (100.11), +3.1% in 1m. 60d correlation with gold: -0.49."
+    },
+    {
+     "key": "risk",
+     "name": "Geopolitical risk and safe haven",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "VIX 14.8, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
+    },
+    {
+     "key": "demand",
+     "name": "Central banks, ETFs, physical demand",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.6% in 1m, volume x0.87. IBIT +6.4% in 1m, volume x0.96 vs 3m avg."
+    },
+    {
+     "key": "sentiment",
+     "name": "Positioning and market reaction",
+     "score": 1.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 33th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 61. Crowded positioning is treated as a contrarian warning."
+    }
+   ],
+   "supports": [
+    "Geopolitical risk and safe haven",
+    "Central banks, ETFs, physical demand"
+   ],
+   "headwinds": [
+    "US dollar (DXY)"
+   ],
+   "coverage": "4/7 factors live"
+  }
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "name": "FOMC rate decision"
+  },
+  {
+   "date": "2026-11-06",
+   "name": "US jobs report (NFP), usual date"
+  },
+  {
+   "date": "2026-12-09",
+   "name": "FOMC rate decision"
+  }
+ ],
+ "errors": [
+  "policy: The read operation timed out",
+  "yields: The read operation timed out",
+  "macro: The read operation timed out"
+ ],
+ "history": [
+  {
+   "date": "2026-10-11",
+   "gold": -44.4,
+   "btc": 22.7
+  }
+ ]
+}
