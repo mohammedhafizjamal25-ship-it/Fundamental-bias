@@ -1,42 +1,44 @@
 {
- "generated_utc": "2026-10-11 04:26",
+ "generated_utc": "2026-10-11 10:12",
  "demo": false,
  "market": {
   "gold": 4216.3,
   "dxy": 102.21,
-  "btc": 82900.0
+  "btc": 82957.0,
+  "us10y": 5.22,
+  "real10y": 2.87
  },
  "assets": {
   "gold": {
-   "composite": -44.4,
+   "composite": -55.6,
    "bias": "Strong bearish",
-   "expected": -44.4,
+   "expected": -55.6,
    "expected_bias": "Strong bearish",
-   "confidence": 50,
+   "confidence": 57,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": 0.0,
+     "score": -2.0,
      "weight": 1.5,
-     "ok": false,
-     "detail": "Data unavailable: policy: The read operation timed out"
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.75% (+87bp). Market is pricing hikes. 2y moved +19bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 0.0,
+     "score": -2.0,
      "weight": 2.0,
-     "ok": false,
-     "detail": "Data unavailable: yields: The read operation timed out"
+     "ok": true,
+     "detail": "10y real yield 2.87% (+32bp in 1m), 10y nominal 5.22% (+27bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0.0,
+     "score": 1.0,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: macro: The read operation timed out"
+     "ok": true,
+     "detail": "CPI 3.7% y/y (-0.56pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -71,43 +73,45 @@
      "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 33th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 61. Crowded positioning is treated as a contrarian warning."
     }
    ],
-   "supports": [],
-   "headwinds": [
-    "US dollar (DXY)",
-    "Positioning and market reaction"
+   "supports": [
+    "CPI, PCE, NFP, unemployment"
    ],
-   "coverage": "4/7 factors live"
+   "headwinds": [
+    "Treasury and real yields",
+    "US dollar (DXY)"
+   ],
+   "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": 22.7,
-   "bias": "Bullish",
-   "expected": 22.7,
-   "expected_bias": "Bullish",
-   "confidence": 75,
+   "composite": -8.3,
+   "bias": "Neutral",
+   "expected": -8.3,
+   "expected_bias": "Neutral",
+   "confidence": 43,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": 0.0,
+     "score": -2.0,
      "weight": 1.5,
-     "ok": false,
-     "detail": "Data unavailable: policy: The read operation timed out"
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.75% (+87bp). Market is pricing hikes. 2y moved +19bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 0.0,
+     "score": -2.0,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: yields: The read operation timed out"
+     "ok": true,
+     "detail": "10y real yield 2.87% (+32bp in 1m), 10y nominal 5.22% (+27bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0.0,
+     "score": 1.0,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: macro: The read operation timed out"
+     "ok": true,
+     "detail": "CPI 3.7% y/y (-0.56pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -147,9 +151,10 @@
     "Central banks, ETFs, physical demand"
    ],
    "headwinds": [
+    "Rates and Fed policy",
     "US dollar (DXY)"
    ],
-   "coverage": "4/7 factors live"
+   "coverage": "7/7 factors live"
   }
  },
  "events": [
@@ -166,16 +171,12 @@
    "name": "FOMC rate decision"
   }
  ],
- "errors": [
-  "policy: The read operation timed out",
-  "yields: The read operation timed out",
-  "macro: The read operation timed out"
- ],
+ "errors": [],
  "history": [
   {
    "date": "2026-10-11",
-   "gold": -44.4,
-   "btc": 22.7
+   "gold": -55.6,
+   "btc": -8.3
   }
  ]
 }
