@@ -1,8 +1,7 @@
 name: Update daily bias
 on:
   schedule:
-    - cron: "15 6 * * 1-5"
-    - cron: "45 12 * * 1-5"
+          - cron: "*/15 * * * 1-5"
   workflow_dispatch: {}
 permissions:
   contents: write
