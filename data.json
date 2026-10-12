@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-12 07:09",
+ "generated_utc": "2026-10-12 07:36",
  "demo": false,
  "market": {
-  "gold": 4209.9,
-  "dxy": 102.19,
-  "btc": 84120.0,
+  "gold": 4207.4,
+  "dxy": 102.23,
+  "btc": 83891.0,
   "us10y": 5.22,
   "real10y": 2.87
  },
@@ -46,7 +46,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.19, above its 50d average (100.16), +2.7% in 1m. 60d correlation with gold: -0.49."
+     "detail": "DXY 102.23, above its 50d average (100.16), +2.8% in 1m. 60d correlation with gold: -0.49."
     },
     {
      "key": "risk",
@@ -54,7 +54,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 14.8, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 15.4, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -83,10 +83,10 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -8.3,
-   "bias": "Neutral",
-   "expected": -8.3,
-   "expected_bias": "Neutral",
+   "composite": -16.7,
+   "bias": "Bearish",
+   "expected": -20.9,
+   "expected_bias": "Bearish",
    "confidence": 43,
    "factors": [
     {
@@ -119,15 +119,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.19, above its 50d average (100.16), +2.7% in 1m. 60d correlation with gold: -0.49."
+     "detail": "DXY 102.23, above its 50d average (100.16), +2.8% in 1m. 60d correlation with gold: -0.49."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 1,
+     "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 14.8, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 15.4, S&P 500 -0.1% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -147,8 +147,8 @@
     }
    ],
    "supports": [
-    "Geopolitical risk and safe haven",
-    "Central banks, ETFs, physical demand"
+    "Central banks, ETFs, physical demand",
+    "Positioning and market reaction"
    ],
    "headwinds": [
     "Rates and Fed policy",
@@ -181,7 +181,7 @@
   {
    "date": "2026-10-12",
    "gold": -55.6,
-   "btc": -8.3
+   "btc": -16.7
   }
  ]
 }
