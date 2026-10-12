@@ -11,6 +11,7 @@ To change the watchlist, create pairs.json next to this file:
    {"symbol": "GC=F", "name": "Gold", "type": "commodity", "sub": "precious"},
    {"symbol": "ETH-USD", "name": "Ethereum", "type": "crypto"}]
 Symbols are Yahoo Finance tickers. Commodity "sub": precious | industrial | energy | agri.
+Other types: "index" (sub: growth | broad | value | small) and "bond".
 Forex symbols must look like EURUSD=X (two of USD EUR GBP JPY AUD NZD CAD CHF).
 """
 import csv, hashlib, io, json, math, os, random, sys, time
@@ -41,6 +42,14 @@ DEFAULT_PAIRS = [
     {"symbol": "BZ=F", "name": "Brent crude oil", "type": "commodity", "sub": "energy"},
     {"symbol": "NG=F", "name": "Natural gas", "type": "commodity", "sub": "energy"},
     {"symbol": "ZW=F", "name": "Wheat", "type": "commodity", "sub": "agri"},
+    {"symbol": "ZC=F", "name": "Corn", "type": "commodity", "sub": "agri"},
+    {"symbol": "ZS=F", "name": "Soybeans", "type": "commodity", "sub": "agri"},
+    {"symbol": "NQ=F", "name": "Nasdaq 100 futures", "type": "index", "sub": "growth"},
+    {"symbol": "ES=F", "name": "S&P 500 futures", "type": "index", "sub": "broad"},
+    {"symbol": "YM=F", "name": "Dow Jones futures", "type": "index", "sub": "value"},
+    {"symbol": "RTY=F", "name": "Russell 2000 futures", "type": "index", "sub": "small"},
+    {"symbol": "ZN=F", "name": "10-year T-note futures", "type": "bond"},
+    {"symbol": "ZB=F", "name": "30-year T-bond futures", "type": "bond"},
     {"symbol": "BTC-USD", "name": "Bitcoin", "type": "crypto"},
     {"symbol": "ETH-USD", "name": "Ethereum", "type": "crypto"},
     {"symbol": "SOL-USD", "name": "Solana", "type": "crypto"},
@@ -71,6 +80,16 @@ COMMODITY = {
     "energy":     {"policy": 0.5, "yields": 0.0, "macro": 0.0, "usd": 1.0, "risk": 1.0, "growth": 2.0},
     "agri":       {"policy": 0.0, "yields": 0.0, "macro": 0.0, "usd": 1.0, "risk": 0.5, "growth": 0.5},
 }
+# Equity index futures. Note: the shared risk and growth drivers use the S&P 500 and VIX,
+# so for index futures they overlap a little with the instrument's own price trend.
+INDEX = {
+    "growth": {"policy": 1.5, "yields": 2.0, "macro": 1.0, "usd": 0.5, "risk": 2.0, "growth": 1.0},
+    "broad":  {"policy": 1.5, "yields": 1.5, "macro": 1.0, "usd": 0.5, "risk": 2.0, "growth": 1.5},
+    "value":  {"policy": 1.0, "yields": 1.0, "macro": 1.0, "usd": 0.5, "risk": 1.5, "growth": 2.0},
+    "small":  {"policy": 1.5, "yields": 2.0, "macro": 1.0, "usd": 0.5, "risk": 1.5, "growth": 2.0},
+}
+# Treasury futures rise when yields fall, and act as a mild safe haven.
+BOND = {"policy": 1.5, "yields": 2.0, "macro": 1.0, "risk": -0.75, "growth": -0.5}
 CRYPTO = {"policy": 1.5, "yields": 1.0, "macro": 1.0, "usd": 1.0, "risk": 1.5, "growth": 0.5, "sent": 1.5}
 RISK_BETA = {"USD": -0.5, "EUR": 0.25, "GBP": 0.5, "JPY": -1.0, "CHF": -1.0, "AUD": 1.2, "NZD": 1.0, "CAD": 0.7}
 
@@ -296,6 +315,10 @@ def sensitivities(inst):
         return s
     if typ == "commodity":
         return dict(COMMODITY.get(inst.get("sub", "precious"), COMMODITY["precious"]))
+    if typ == "index":
+        return dict(INDEX.get(inst.get("sub", "broad"), INDEX["broad"]))
+    if typ == "bond":
+        return dict(BOND)
     s = dict(CRYPTO)
     if inst["symbol"] != "BTC-USD":
         s["btc"] = 1.5
@@ -352,7 +375,7 @@ def load_pairs():
     try:
         with open(os.path.join(HERE, "pairs.json")) as f:
             p = json.load(f)
-        ok = [x for x in p if x.get("symbol") and x.get("type") in ("forex", "commodity", "crypto")]
+        ok = [x for x in p if x.get("symbol") and x.get("type") in ("forex", "commodity", "crypto", "index", "bond")]
         return ok or DEFAULT_PAIRS
     except Exception:
         return DEFAULT_PAIRS
@@ -397,7 +420,7 @@ def install_demo():
     bases = {"EURUSD=X": 1.16, "GBPUSD=X": 1.33, "USDJPY=X": 150, "AUDUSD=X": 0.66, "NZDUSD=X": 0.6,
              "USDCAD=X": 1.38, "USDCHF=X": 0.8, "EURJPY=X": 174, "GBPJPY=X": 200, "EURGBP=X": 0.87,
              "GC=F": 4000, "SI=F": 48, "PL=F": 1500, "HG=F": 5, "CL=F": 62, "BZ=F": 66, "NG=F": 3.2,
-             "ZW=F": 540, "BTC-USD": 110000, "ETH-USD": 4000, "SOL-USD": 190, "XRP-USD": 2.5, "BNB-USD": 1000}
+             "ZW=F": 540, "ZC=F": 430, "ZS=F": 1050, "NQ=F": 24000, "ES=F": 6600, "YM=F": 46000, "RTY=F": 2400, "ZN=F": 111, "ZB=F": 115, "BTC-USD": 110000, "ETH-USD": 4000, "SOL-USD": 190, "XRP-USD": 2.5, "BNB-USD": 1000}
 
     def mock_yahoo(sym, rng="1y"):
         rnd = random.Random(int(hashlib.md5(sym.encode()).hexdigest()[:8], 16))
