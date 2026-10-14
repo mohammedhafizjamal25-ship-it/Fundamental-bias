@@ -1,18 +1,18 @@
 {
- "generated_utc": "2026-10-14 12:28",
+ "generated_utc": "2026-10-14 13:12",
  "demo": false,
  "market": {
-  "gold": 4169.2,
-  "dxy": 102.23,
-  "btc": 83690.0,
+  "gold": 4109.4,
+  "dxy": 102.82,
+  "btc": 82530.0,
   "us10y": 5.24,
   "real10y": 2.91
  },
  "assets": {
   "gold": {
-   "composite": -55.6,
+   "composite": -61.1,
    "bias": "Strong bearish",
-   "expected": -55.6,
+   "expected": -63.9,
    "expected_bias": "Strong bearish",
    "confidence": 57,
    "factors": [
@@ -35,10 +35,10 @@
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 1.0,
+     "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 3.7% y/y (-0.56pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -46,7 +46,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.23, above its 50d average (100.26), +1.9% in 1m. 60d correlation with gold: -0.50."
+     "detail": "DXY 102.82, above its 50d average (100.27), +2.5% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -54,7 +54,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 15.3, S&P 500 -0.2% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 15.7, S&P 500 -0.2% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -73,9 +73,7 @@
      "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 33th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 62. Crowded positioning is treated as a contrarian warning."
     }
    ],
-   "supports": [
-    "CPI, PCE, NFP, unemployment"
-   ],
+   "supports": [],
    "headwinds": [
     "Treasury and real yields",
     "US dollar (DXY)"
@@ -83,9 +81,9 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -16.7,
+   "composite": -22.2,
    "bias": "Bearish",
-   "expected": -20.9,
+   "expected": -29.1,
    "expected_bias": "Bearish",
    "confidence": 43,
    "factors": [
@@ -108,10 +106,10 @@
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 1.0,
+     "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 3.7% y/y (-0.56pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -119,7 +117,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.23, above its 50d average (100.26), +1.9% in 1m. 60d correlation with gold: -0.50."
+     "detail": "DXY 102.82, above its 50d average (100.27), +2.5% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -127,7 +125,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 15.3, S&P 500 -0.2% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 15.7, S&P 500 -0.2% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -190,8 +188,8 @@
   },
   {
    "date": "2026-10-14",
-   "gold": -55.6,
-   "btc": -16.7
+   "gold": -61.1,
+   "btc": -22.2
   }
  ]
 }
