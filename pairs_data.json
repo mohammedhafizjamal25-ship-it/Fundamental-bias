@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-16 22:43",
+ "generated_utc": "2026-10-16 23:08",
  "demo": false,
  "instruments": [
   {
@@ -85,9 +85,9 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.33294,
-   "chg1d": 0.42,
-   "chg5d": 0.66,
+   "price": 1.333,
+   "chg1d": 0.43,
+   "chg5d": 0.67,
    "composite": -43.5,
    "bias": "Strong bearish",
    "confidence": 57,
@@ -894,7 +894,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -9.1%."
     }
    ],
    "expected": -54.4,
@@ -1793,9 +1793,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 81658.19,
-   "chg1d": -0.59,
-   "chg5d": -2.42,
+   "price": 81645.84,
+   "chg1d": -0.6,
+   "chg5d": -2.43,
    "composite": -21.0,
    "bias": "Bearish",
    "confidence": 50,
@@ -1881,9 +1881,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2422.53,
-   "chg1d": -0.74,
-   "chg5d": -4.43,
+   "price": 2421.13,
+   "chg1d": -0.79,
+   "chg5d": -4.48,
    "composite": -25.0,
    "bias": "Bearish",
    "confidence": 44,
@@ -1964,7 +1964,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -10.1%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -10.2%."
     }
    ],
    "expected": -28.4,
@@ -1975,9 +1975,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 104.32,
-   "chg1d": -0.96,
-   "chg5d": -6.22,
+   "price": 104.29,
+   "chg1d": -0.99,
+   "chg5d": -6.25,
    "composite": -31.8,
    "bias": "Bearish",
    "confidence": 56,
@@ -2069,12 +2069,12 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.3085,
-   "chg1d": -1.85,
-   "chg5d": -7.15,
-   "composite": -31.8,
+   "price": 1.3093,
+   "chg1d": -1.79,
+   "chg5d": -7.09,
+   "composite": -25.0,
    "bias": "Bearish",
-   "confidence": 56,
+   "confidence": 44,
    "coverage": "9/9 factors live",
    "supports": [],
    "headwinds": [
@@ -2149,23 +2149,23 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.3%."
     }
    ],
-   "expected": -38.6,
-   "expected_bias": "Strong bearish"
+   "expected": -28.4,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "BNB-USD",
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 721.54,
-   "chg1d": -0.98,
-   "chg5d": -4.25,
+   "price": 721.42,
+   "chg1d": -0.99,
+   "chg5d": -4.26,
    "composite": -25.0,
    "bias": "Bearish",
    "confidence": 44,
@@ -2520,7 +2520,7 @@
    "BTC-USD": -21.0,
    "ETH-USD": -25.0,
    "SOL-USD": -31.8,
-   "XRP-USD": -31.8,
+   "XRP-USD": -25.0,
    "BNB-USD": -25.0
   }
  ]
