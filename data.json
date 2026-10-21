@@ -1,44 +1,42 @@
 {
- "generated_utc": "2026-10-21 14:45",
+ "generated_utc": "2026-10-21 15:26",
  "demo": false,
  "market": {
-  "gold": 4147.7,
-  "dxy": 101.76,
-  "btc": 84133.0,
-  "us10y": 5.15,
-  "real10y": 2.8
+  "gold": 4147.8,
+  "dxy": 101.79,
+  "btc": 84373.0
  },
  "assets": {
   "gold": {
-   "composite": -36.1,
-   "bias": "Strong bearish",
-   "expected": -23.6,
-   "expected_bias": "Bearish",
-   "confidence": 57,
+   "composite": -27.8,
+   "bias": "Bearish",
+   "expected": -11.2,
+   "expected_bias": "Neutral",
+   "confidence": 50,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": -1.33,
+     "score": 0.0,
      "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.77% (+89bp). Market is pricing hikes. 2y moved +1bp in 1 month."
+     "ok": false,
+     "detail": "Data unavailable: policy: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -1.0,
+     "score": 0.0,
      "weight": 2.0,
-     "ok": true,
-     "detail": "10y real yield 2.80% (+12bp in 1m), 10y nominal 5.15% (+14bp). Falling real yields support gold and BTC."
+     "ok": false,
+     "detail": "Data unavailable: yields: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0,
+     "score": 0.0,
      "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "ok": false,
+     "detail": "Data unavailable: macro: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "dollar",
@@ -46,7 +44,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.76, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.79, above its 50d average (100.47), +0.7% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -54,7 +52,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 17.2, S&P 500 -1.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 16.7, S&P 500 -1.0% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -62,7 +60,7 @@
      "score": 0.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.7% in 1m, volume x0.77. IBIT -0.5% in 1m, volume x0.76 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.78. IBIT -0.2% in 1m, volume x0.77 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -75,41 +73,41 @@
    ],
    "supports": [],
    "headwinds": [
-    "Treasury and real yields",
-    "Rates and Fed policy"
+    "US dollar (DXY)",
+    "Positioning and market reaction"
    ],
-   "coverage": "7/7 factors live"
+   "coverage": "4/7 factors live"
   },
   "btc": {
-   "composite": -13.9,
-   "bias": "Bearish",
-   "expected": -9.8,
-   "expected_bias": "Neutral",
-   "confidence": 43,
+   "composite": 4.5,
+   "bias": "Neutral",
+   "expected": 17.9,
+   "expected_bias": "Bullish",
+   "confidence": 25,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": -1.33,
+     "score": 0.0,
      "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.77% (+89bp). Market is pricing hikes. 2y moved +1bp in 1 month."
+     "ok": false,
+     "detail": "Data unavailable: policy: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -1.0,
+     "score": 0.0,
      "weight": 1.0,
-     "ok": true,
-     "detail": "10y real yield 2.80% (+12bp in 1m), 10y nominal 5.15% (+14bp). Falling real yields support gold and BTC."
+     "ok": false,
+     "detail": "Data unavailable: yields: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0,
+     "score": 0.0,
      "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "ok": false,
+     "detail": "Data unavailable: macro: Expecting value: line 1 column 1 (char 0)"
     },
     {
      "key": "dollar",
@@ -117,7 +115,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.76, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.79, above its 50d average (100.47), +0.7% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -125,7 +123,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.2, S&P 500 -1.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 16.7, S&P 500 -1.0% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -133,7 +131,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.7% in 1m, volume x0.77. IBIT -0.5% in 1m, volume x0.76 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.78. IBIT -0.2% in 1m, volume x0.77 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -148,10 +146,9 @@
     "Positioning and market reaction"
    ],
    "headwinds": [
-    "Rates and Fed policy",
     "US dollar (DXY)"
    ],
-   "coverage": "7/7 factors live"
+   "coverage": "4/7 factors live"
   }
  },
  "events": [
@@ -168,7 +165,11 @@
    "name": "FOMC rate decision"
   }
  ],
- "errors": [],
+ "errors": [
+  "policy: Expecting value: line 1 column 1 (char 0)",
+  "yields: Expecting value: line 1 column 1 (char 0)",
+  "macro: Expecting value: line 1 column 1 (char 0)"
+ ],
  "history": [
   {
    "date": "2026-10-11",
@@ -212,8 +213,8 @@
   },
   {
    "date": "2026-10-21",
-   "gold": -36.1,
-   "btc": -13.9
+   "gold": -27.8,
+   "btc": 4.5
   }
  ]
 }
