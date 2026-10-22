@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-21 23:54",
+ "generated_utc": "2026-10-22 00:26",
  "demo": false,
  "market": {
-  "gold": 4142.2,
-  "dxy": 101.68,
-  "btc": 84023.0
+  "gold": 4135.6,
+  "dxy": 101.69,
+  "btc": 84196.0
  },
  "assets": {
   "gold": {
@@ -44,7 +44,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.68, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.69, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -60,7 +60,7 @@
      "score": 0.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.80. IBIT -0.1% in 1m, volume x0.78 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.6% in 1m, volume x0.80. IBIT -4.3% in 1m, volume x0.78 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -68,7 +68,7 @@
      "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 27th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 63. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 27th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 68. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [],
@@ -79,11 +79,11 @@
    "coverage": "4/7 factors live"
   },
   "btc": {
-   "composite": 4.5,
+   "composite": -9.1,
    "bias": "Neutral",
-   "expected": 17.9,
-   "expected_bias": "Bullish",
-   "confidence": 25,
+   "expected": -2.5,
+   "expected_bias": "Neutral",
+   "confidence": 50,
    "factors": [
     {
      "key": "policy",
@@ -115,7 +115,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.68, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.69, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -128,10 +128,10 @@
     {
      "key": "demand",
      "name": "Central banks, ETFs, physical demand",
-     "score": 0,
+     "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.80. IBIT -0.1% in 1m, volume x0.78 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.6% in 1m, volume x0.80. IBIT -4.3% in 1m, volume x0.78 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -139,13 +139,14 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 27th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 63. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 27th percentile (3y). BTC: BTC above its 50d/200d averages, crypto Fear & Greed 68. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
     "Positioning and market reaction"
    ],
    "headwinds": [
+    "Central banks, ETFs, physical demand",
     "US dollar (DXY)"
    ],
    "coverage": "4/7 factors live"
@@ -215,6 +216,11 @@
    "date": "2026-10-21",
    "gold": -27.8,
    "btc": 4.5
+  },
+  {
+   "date": "2026-10-22",
+   "gold": -27.8,
+   "btc": -9.1
   }
  ]
 }
