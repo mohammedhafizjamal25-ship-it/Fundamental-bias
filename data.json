@@ -1,42 +1,44 @@
 {
- "generated_utc": "2026-10-22 04:18",
+ "generated_utc": "2026-10-22 05:03",
  "demo": false,
  "market": {
-  "gold": 4107.9,
+  "gold": 4106.7,
   "dxy": 101.58,
-  "btc": 82815.0
+  "btc": 82855.0,
+  "us10y": 5.12,
+  "real10y": 2.77
  },
  "assets": {
   "gold": {
-   "composite": -27.8,
-   "bias": "Bearish",
-   "expected": -11.2,
-   "expected_bias": "Neutral",
-   "confidence": 50,
+   "composite": -41.6,
+   "bias": "Strong bearish",
+   "expected": -31.9,
+   "expected_bias": "Bearish",
+   "confidence": 57,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": 0.0,
+     "score": -1.33,
      "weight": 1.5,
-     "ok": false,
-     "detail": "Data unavailable: policy: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.79% (+91bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 0.0,
+     "score": -1.5,
      "weight": 2.0,
-     "ok": false,
-     "detail": "Data unavailable: yields: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "10y real yield 2.77% (+15bp in 1m), 10y nominal 5.12% (+16bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0.0,
+     "score": 0,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: macro: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -73,41 +75,41 @@
    ],
    "supports": [],
    "headwinds": [
-    "US dollar (DXY)",
-    "Positioning and market reaction"
+    "Treasury and real yields",
+    "Rates and Fed policy"
    ],
-   "coverage": "4/7 factors live"
+   "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": 4.5,
-   "bias": "Neutral",
-   "expected": 17.9,
-   "expected_bias": "Bullish",
-   "confidence": 25,
+   "composite": -16.6,
+   "bias": "Bearish",
+   "expected": -13.8,
+   "expected_bias": "Bearish",
+   "confidence": 43,
    "factors": [
     {
      "key": "policy",
      "name": "Rates and Fed policy",
-     "score": 0.0,
+     "score": -1.33,
      "weight": 1.5,
-     "ok": false,
-     "detail": "Data unavailable: policy: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.79% (+91bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 0.0,
+     "score": -1.5,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: yields: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "10y real yield 2.77% (+15bp in 1m), 10y nominal 5.12% (+16bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
      "name": "CPI, PCE, NFP, unemployment",
-     "score": 0.0,
+     "score": 0,
      "weight": 1.0,
-     "ok": false,
-     "detail": "Data unavailable: macro: Expecting value: line 1 column 1 (char 0)"
+     "ok": true,
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "dollar",
@@ -146,9 +148,10 @@
     "Positioning and market reaction"
    ],
    "headwinds": [
-    "US dollar (DXY)"
+    "Rates and Fed policy",
+    "Treasury and real yields"
    ],
-   "coverage": "4/7 factors live"
+   "coverage": "7/7 factors live"
   }
  },
  "events": [
@@ -165,11 +168,7 @@
    "name": "FOMC rate decision"
   }
  ],
- "errors": [
-  "policy: Expecting value: line 1 column 1 (char 0)",
-  "yields: Expecting value: line 1 column 1 (char 0)",
-  "macro: Expecting value: line 1 column 1 (char 0)"
- ],
+ "errors": [],
  "history": [
   {
    "date": "2026-10-11",
@@ -218,8 +217,8 @@
   },
   {
    "date": "2026-10-22",
-   "gold": -27.8,
-   "btc": 4.5
+   "gold": -41.6,
+   "btc": -16.6
   }
  ]
 }
