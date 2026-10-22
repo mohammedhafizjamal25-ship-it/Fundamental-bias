@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-10-22 01:11",
+ "generated_utc": "2026-10-22 01:46",
  "demo": false,
  "market": {
-  "gold": 4128.9,
-  "dxy": 101.69,
-  "btc": 84180.0
+  "gold": 4128.7,
+  "dxy": 101.72,
+  "btc": 83620.0
  },
  "assets": {
   "gold": {
@@ -44,7 +44,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.69, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.72, above its 50d average (100.51), +0.4% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -60,7 +60,7 @@
      "score": 0.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.6% in 1m, volume x0.80. IBIT -4.3% in 1m, volume x0.78 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.80. IBIT -0.1% in 1m, volume x0.78 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -79,11 +79,11 @@
    "coverage": "4/7 factors live"
   },
   "btc": {
-   "composite": -9.1,
+   "composite": 4.5,
    "bias": "Neutral",
-   "expected": -2.5,
-   "expected_bias": "Neutral",
-   "confidence": 50,
+   "expected": 17.9,
+   "expected_bias": "Bullish",
+   "confidence": 25,
    "factors": [
     {
      "key": "policy",
@@ -115,7 +115,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.69, above its 50d average (100.47), +0.6% in 1m. 60d correlation with gold: -0.52."
+     "detail": "DXY 101.72, above its 50d average (100.51), +0.4% in 1m. 60d correlation with gold: -0.52."
     },
     {
      "key": "risk",
@@ -128,10 +128,10 @@
     {
      "key": "demand",
      "name": "Central banks, ETFs, physical demand",
-     "score": -1,
+     "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.6% in 1m, volume x0.80. IBIT -4.3% in 1m, volume x0.78 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -3.5% in 1m, volume x0.80. IBIT -0.1% in 1m, volume x0.78 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -146,7 +146,6 @@
     "Positioning and market reaction"
    ],
    "headwinds": [
-    "Central banks, ETFs, physical demand",
     "US dollar (DXY)"
    ],
    "coverage": "4/7 factors live"
@@ -220,7 +219,7 @@
   {
    "date": "2026-10-22",
    "gold": -27.8,
-   "btc": -9.1
+   "btc": 4.5
   }
  ]
 }
