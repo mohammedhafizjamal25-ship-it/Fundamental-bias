@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24 06:27",
+ "generated_utc": "2026-10-24 07:32",
  "demo": false,
  "instruments": [
   {
@@ -2246,12 +2246,12 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 80685.61,
-   "chg1d": -0.77,
-   "chg5d": -1.62,
-   "composite": -8.4,
-   "bias": "Neutral",
-   "confidence": 36,
+   "price": 80645.59,
+   "chg1d": -0.53,
+   "chg5d": -1.48,
+   "composite": -13.7,
+   "bias": "Bearish",
+   "confidence": 45,
    "coverage": "11/11 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2259,7 +2259,7 @@
    ],
    "headwinds": [
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-    "Fed policy and rate expectations"
+    "Price trend and momentum"
    ],
    "factors": [
     {
@@ -2345,13 +2345,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 0.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.8%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.7%."
     }
    ],
-   "expected": 1.4,
+   "expected": -6.5,
    "expected_bias": "Neutral"
   },
   {
@@ -2359,9 +2359,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2375.93,
+   "price": 2373.75,
    "chg1d": -0.43,
-   "chg5d": -1.36,
+   "chg5d": -1.29,
    "composite": -22.1,
    "bias": "Bearish",
    "confidence": 50,
@@ -2469,7 +2469,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -11.6%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -12.9%."
     }
    ],
    "expected": -13.3,
@@ -2480,9 +2480,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 102.22,
-   "chg1d": -1.28,
-   "chg5d": -1.73,
+   "price": 101.8,
+   "chg1d": -0.95,
+   "chg5d": -2.98,
    "composite": -22.1,
    "bias": "Bearish",
    "confidence": 50,
@@ -2590,7 +2590,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.6%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -16.2%."
     }
    ],
    "expected": -13.3,
@@ -2601,9 +2601,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.2878,
-   "chg1d": -1.52,
-   "chg5d": -1.31,
+   "price": 1.2851,
+   "chg1d": -0.68,
+   "chg5d": -1.35,
    "composite": -22.1,
    "bias": "Bearish",
    "confidence": 50,
@@ -2711,7 +2711,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -13.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -15.5%."
     }
    ],
    "expected": -13.3,
@@ -2722,12 +2722,12 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 737.54,
-   "chg1d": 0.97,
-   "chg5d": 2.12,
-   "composite": -17.2,
+   "price": 736.33,
+   "chg1d": -0.34,
+   "chg5d": 0.74,
+   "composite": -22.1,
    "bias": "Bearish",
-   "confidence": 42,
+   "confidence": 50,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2829,14 +2829,14 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 0.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.3%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.4%."
     }
    ],
-   "expected": -8.3,
-   "expected_bias": "Neutral"
+   "expected": -15.7,
+   "expected_bias": "Bearish"
   }
  ],
  "drivers": [
@@ -3030,11 +3030,11 @@
    "RTY=F": -11.1,
    "ZN=F": 13.3,
    "ZB=F": 21.9,
-   "BTC-USD": -8.4,
+   "BTC-USD": -13.7,
    "ETH-USD": -22.1,
    "SOL-USD": -22.1,
    "XRP-USD": -22.1,
-   "BNB-USD": -17.2
+   "BNB-USD": -22.1
   }
  ]
 }
