@@ -1,20 +1,20 @@
 {
- "generated_utc": "2026-10-28 06:18",
+ "generated_utc": "2026-10-28 07:33",
  "demo": false,
  "market": {
-  "gold": 4043.2,
-  "dxy": 102.43,
-  "btc": 80841.0,
+  "gold": 4047.6,
+  "dxy": 102.47,
+  "btc": 80812.0,
   "us10y": 5.0,
   "real10y": 2.66
  },
  "assets": {
   "gold": {
-   "composite": 2.8,
+   "composite": -5.6,
    "bias": "Neutral",
-   "expected": 18.1,
-   "expected_bias": "Bullish",
-   "confidence": 14,
+   "expected": 5.5,
+   "expected_bias": "Neutral",
+   "confidence": 43,
    "factors": [
     {
      "key": "policy",
@@ -43,10 +43,10 @@
     {
      "key": "dollar",
      "name": "US dollar (DXY)",
-     "score": -1,
+     "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.43, above its 50d average (100.70), +1.0% in 1m. 60d correlation with gold: -0.47."
+     "detail": "DXY 102.47, above its 50d average (100.70), +1.0% in 1m. 60d correlation with gold: -0.47."
     },
     {
      "key": "risk",
@@ -83,9 +83,9 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -8.4,
-   "bias": "Neutral",
-   "expected": -14.9,
+   "composite": -13.9,
+   "bias": "Bearish",
+   "expected": -23.1,
    "expected_bias": "Bearish",
    "confidence": 43,
    "factors": [
@@ -116,10 +116,10 @@
     {
      "key": "dollar",
      "name": "US dollar (DXY)",
-     "score": -1,
+     "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.43, above its 50d average (100.70), +1.0% in 1m. 60d correlation with gold: -0.47."
+     "detail": "DXY 102.47, above its 50d average (100.70), +1.0% in 1m. 60d correlation with gold: -0.47."
     },
     {
      "key": "risk",
@@ -150,8 +150,8 @@
     "Treasury and real yields"
    ],
    "headwinds": [
-    "Central banks, ETFs, physical demand",
-    "Rates and Fed policy"
+    "US dollar (DXY)",
+    "Central banks, ETFs, physical demand"
    ],
    "coverage": "7/7 factors live"
   }
@@ -239,8 +239,8 @@
   },
   {
    "date": "2026-10-28",
-   "gold": 2.8,
-   "btc": -8.4
+   "gold": -5.6,
+   "btc": -13.9
   }
  ]
 }
