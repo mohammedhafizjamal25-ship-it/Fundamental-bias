@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29 12:10",
+ "generated_utc": "2026-10-29 13:07",
  "demo": false,
  "instruments": [
   {
@@ -7,12 +7,12 @@
    "name": "EUR/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.11396,
-   "chg1d": 0.09,
-   "chg5d": -0.85,
-   "composite": -20.3,
+   "price": 1.11321,
+   "chg1d": 0.02,
+   "chg5d": -0.91,
+   "composite": -22.8,
    "bias": "Bearish",
-   "confidence": 44,
+   "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields",
@@ -42,10 +42,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -53,7 +53,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -61,7 +61,7 @@
      "score": 0,
      "weight": 0.75,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -96,7 +96,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.7%."
     }
    ],
-   "expected": -17.9,
+   "expected": -21.6,
    "expected_bias": "Bearish"
   },
   {
@@ -104,12 +104,12 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.33181,
-   "chg1d": 0.09,
-   "chg5d": -0.58,
-   "composite": -12.7,
+   "price": 1.33198,
+   "chg1d": 0.1,
+   "chg5d": -0.57,
+   "composite": -15.1,
    "bias": "Bearish",
-   "confidence": 44,
+   "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields",
@@ -139,10 +139,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -150,7 +150,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -158,7 +158,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -193,7 +193,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move +0.4%."
     }
    ],
-   "expected": -18.6,
+   "expected": -22.2,
    "expected_bias": "Bearish"
   },
   {
@@ -201,12 +201,12 @@
    "name": "USD/JPY",
    "type": "forex",
    "sub": "",
-   "price": 158.04,
-   "chg1d": 0.03,
+   "price": 158.03,
+   "chg1d": 0.02,
    "chg5d": -0.06,
-   "composite": 25.9,
+   "composite": 28.3,
    "bias": "Bullish",
-   "confidence": 44,
+   "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
     "Interest-rate differential",
@@ -236,10 +236,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": 1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -247,7 +247,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -255,7 +255,7 @@
      "score": 0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -290,7 +290,7 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move +0.3%."
     }
    ],
-   "expected": 27.2,
+   "expected": 30.8,
    "expected_bias": "Bullish"
   },
   {
@@ -298,12 +298,12 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.70309,
-   "chg1d": 0.01,
-   "chg5d": 0.02,
-   "composite": -11.9,
-   "bias": "Neutral",
-   "confidence": 44,
+   "price": 0.70299,
+   "chg1d": -0.01,
+   "chg5d": 0.01,
+   "composite": -14.2,
+   "bias": "Bearish",
+   "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields",
@@ -333,10 +333,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -344,7 +344,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -352,7 +352,7 @@
      "score": 0,
      "weight": 1.7,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -387,7 +387,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move +1.2%."
     }
    ],
-   "expected": -14.1,
+   "expected": -17.5,
    "expected_bias": "Bearish"
   },
   {
@@ -395,12 +395,12 @@
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.56107,
-   "chg1d": -1.22,
-   "chg5d": -1.65,
-   "composite": -3.0,
+   "price": 0.56189,
+   "chg1d": -1.08,
+   "chg5d": -1.51,
+   "composite": -5.3,
    "bias": "Neutral",
-   "confidence": 44,
+   "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields",
@@ -430,10 +430,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -441,7 +441,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -449,7 +449,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -481,10 +481,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.3%."
     }
    ],
-   "expected": -0.7,
+   "expected": -4.2,
    "expected_bias": "Neutral"
   },
   {
@@ -492,10 +492,10 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.39817,
-   "chg1d": -0.49,
-   "chg5d": -0.43,
-   "composite": -10.9,
+   "price": 1.39939,
+   "chg1d": -0.4,
+   "chg5d": -0.34,
+   "composite": -8.6,
    "bias": "Neutral",
    "confidence": 44,
    "coverage": "9/9 factors live",
@@ -527,10 +527,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": 1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -538,7 +538,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -546,7 +546,7 @@
      "score": 0,
      "weight": 1.2,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -578,10 +578,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.8%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.7%."
     }
    ],
-   "expected": -8.6,
+   "expected": -5.1,
    "expected_bias": "Neutral"
   },
   {
@@ -589,12 +589,12 @@
    "name": "USD/CHF",
    "type": "forex",
    "sub": "",
-   "price": 0.82865,
-   "chg1d": -0.02,
-   "chg5d": 0.56,
-   "composite": 33.4,
-   "bias": "Bullish",
-   "confidence": 56,
+   "price": 0.82845,
+   "chg1d": -0.04,
+   "chg5d": 0.54,
+   "composite": 35.9,
+   "bias": "Strong bullish",
+   "confidence": 67,
    "coverage": "9/9 factors live",
    "supports": [
     "Interest-rate differential",
@@ -624,10 +624,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": 1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "Inverse effect on this instrument. CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -635,7 +635,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -643,7 +643,7 @@
      "score": 0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -675,10 +675,10 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move -0.8%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move -0.9%."
     }
    ],
-   "expected": 30.9,
+   "expected": 34.6,
    "expected_bias": "Bullish"
   },
   {
@@ -686,9 +686,9 @@
    "name": "EUR/JPY",
    "type": "forex",
    "sub": "",
-   "price": 176.02,
-   "chg1d": 0.13,
-   "chg5d": -0.92,
+   "price": 175.9,
+   "chg1d": 0.06,
+   "chg5d": -0.99,
    "composite": 26.3,
    "bias": "Bullish",
    "confidence": 33,
@@ -706,7 +706,7 @@
      "score": 0,
      "weight": 1.25,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -733,9 +733,9 @@
    "name": "GBP/JPY",
    "type": "forex",
    "sub": "",
-   "price": 210.51,
-   "chg1d": 0.15,
-   "chg5d": -0.61,
+   "price": 210.5,
+   "chg1d": 0.14,
+   "chg5d": -0.62,
    "composite": 25.0,
    "bias": "Bullish",
    "confidence": 33,
@@ -753,7 +753,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -780,9 +780,9 @@
    "name": "EUR/GBP",
    "type": "forex",
    "sub": "",
-   "price": 0.83616,
-   "chg1d": 0.0,
-   "chg5d": -0.29,
+   "price": 0.83562,
+   "chg1d": -0.06,
+   "chg5d": -0.36,
    "composite": -66.7,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -799,7 +799,7 @@
      "score": 0,
      "weight": 0.25,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -826,12 +826,12 @@
    "name": "Gold",
    "type": "commodity",
    "sub": "precious",
-   "price": 4032.7,
-   "chg1d": -0.47,
-   "chg5d": -0.68,
-   "composite": -7.2,
+   "price": 4031.7,
+   "chg1d": -0.49,
+   "chg5d": -0.71,
+   "composite": -11.9,
    "bias": "Neutral",
-   "confidence": 56,
+   "confidence": 67,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields"
@@ -860,10 +860,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -871,7 +871,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -879,7 +879,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -911,10 +911,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.1%."
     }
    ],
-   "expected": -3.6,
+   "expected": -10.7,
    "expected_bias": "Neutral"
   },
   {
@@ -925,9 +925,9 @@
    "price": 52.495,
    "chg1d": -1.8,
    "chg5d": -4.14,
-   "composite": -14.3,
+   "composite": -19.1,
    "bias": "Bearish",
-   "confidence": 56,
+   "confidence": 67,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields"
@@ -956,10 +956,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -967,7 +967,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -975,7 +975,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -1010,7 +1010,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.6%."
     }
    ],
-   "expected": -14.3,
+   "expected": -21.5,
    "expected_bias": "Bearish"
   },
   {
@@ -1018,12 +1018,12 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1484.0,
-   "chg1d": -4.13,
-   "chg5d": -5.33,
-   "composite": -14.3,
+   "price": 1488.4,
+   "chg1d": -3.84,
+   "chg5d": -5.05,
+   "composite": -19.1,
    "bias": "Bearish",
-   "confidence": 56,
+   "confidence": 67,
    "coverage": "9/9 factors live",
    "supports": [
     "Treasury and real yields"
@@ -1052,10 +1052,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -1063,7 +1063,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1071,7 +1071,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -1103,10 +1103,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.7%."
     }
    ],
-   "expected": -14.3,
+   "expected": -21.5,
    "expected_bias": "Bearish"
   },
   {
@@ -1114,10 +1114,10 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 6.5845,
-   "chg1d": -0.86,
-   "chg5d": 3.49,
-   "composite": 5.8,
+   "price": 6.5905,
+   "chg1d": -0.77,
+   "chg5d": 3.58,
+   "composite": 3.3,
    "bias": "Neutral",
    "confidence": 30,
    "coverage": "10/10 factors live",
@@ -1149,10 +1149,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -1160,7 +1160,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1168,7 +1168,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1208,10 +1208,10 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +1.6%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +1.7%."
     }
    ],
-   "expected": 19.8,
+   "expected": 16.0,
    "expected_bias": "Bullish"
   },
   {
@@ -1219,9 +1219,9 @@
    "name": "WTI crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 102.0,
-   "chg1d": -0.76,
-   "chg5d": 2.54,
+   "price": 101.48,
+   "chg1d": -1.26,
+   "chg5d": 2.02,
    "composite": 13.5,
    "bias": "Bullish",
    "confidence": 25,
@@ -1249,7 +1249,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1257,7 +1257,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1297,7 +1297,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +9.8%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +9.3%."
     }
    ],
    "expected": 25.5,
@@ -1308,9 +1308,9 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 110.6,
-   "chg1d": -4.09,
-   "chg5d": -2.27,
+   "price": 110.46,
+   "chg1d": -4.21,
+   "chg5d": -2.39,
    "composite": 13.5,
    "bias": "Bullish",
    "confidence": 25,
@@ -1338,7 +1338,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1346,7 +1346,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1386,7 +1386,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +8.1%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +8.0%."
     }
    ],
    "expected": 25.5,
@@ -1397,19 +1397,19 @@
    "name": "Natural gas",
    "type": "commodity",
    "sub": "energy",
-   "price": 3.031,
-   "chg1d": 7.6,
-   "chg5d": 8.4,
-   "composite": -5.2,
-   "bias": "Neutral",
-   "confidence": 38,
+   "price": 2.951,
+   "chg1d": 4.76,
+   "chg5d": 5.54,
+   "composite": -14.6,
+   "bias": "Bearish",
+   "confidence": 50,
    "coverage": "8/8 factors live",
    "supports": [
     "Credit spreads (high-yield)"
    ],
    "headwinds": [
-    "US dollar trend",
-    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
+    "Price trend and momentum",
+    "US dollar trend"
    ],
    "factors": [
     {
@@ -1426,7 +1426,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1434,7 +1434,7 @@
      "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1471,23 +1471,23 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 0.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +2.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.5%."
     }
    ],
-   "expected": 16.2,
-   "expected_bias": "Bullish"
+   "expected": 2.1,
+   "expected_bias": "Neutral"
   },
   {
    "symbol": "ZW=F",
    "name": "Wheat",
    "type": "commodity",
    "sub": "agri",
-   "price": 599.5,
-   "chg1d": 0.08,
-   "chg5d": -4.04,
+   "price": 598.25,
+   "chg1d": -0.13,
+   "chg5d": -4.24,
    "composite": -57.1,
    "bias": "Strong bearish",
    "confidence": 50,
@@ -1504,7 +1504,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1512,7 +1512,7 @@
      "score": 0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1528,7 +1528,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.4%."
     }
    ],
    "expected": -61.9,
@@ -1539,9 +1539,9 @@
    "name": "Corn",
    "type": "commodity",
    "sub": "agri",
-   "price": 451.0,
-   "chg1d": -0.17,
-   "chg5d": -2.06,
+   "price": 450.25,
+   "chg1d": -0.33,
+   "chg5d": -2.23,
    "composite": -57.1,
    "bias": "Strong bearish",
    "confidence": 50,
@@ -1558,7 +1558,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1566,7 +1566,7 @@
      "score": 0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1582,7 +1582,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.4%."
     }
    ],
    "expected": -51.1,
@@ -1593,9 +1593,9 @@
    "name": "Soybeans",
    "type": "commodity",
    "sub": "agri",
-   "price": 1230.25,
-   "chg1d": 0.47,
-   "chg5d": -1.82,
+   "price": 1230.75,
+   "chg1d": 0.51,
+   "chg5d": -1.78,
    "composite": -35.7,
    "bias": "Strong bearish",
    "confidence": 50,
@@ -1612,7 +1612,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1620,7 +1620,7 @@
      "score": 0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1636,7 +1636,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.2%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.1%."
     }
    ],
    "expected": -29.8,
@@ -1647,10 +1647,10 @@
    "name": "Nasdaq 100 futures",
    "type": "index",
    "sub": "growth",
-   "price": 29623.5,
-   "chg1d": -1.19,
-   "chg5d": 1.65,
-   "composite": 5.2,
+   "price": 29646.75,
+   "chg1d": -1.11,
+   "chg5d": 1.73,
+   "composite": 1.7,
    "bias": "Neutral",
    "confidence": 20,
    "coverage": "10/10 factors live",
@@ -1682,10 +1682,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -1693,7 +1693,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1701,7 +1701,7 @@
      "score": 0,
      "weight": 2.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1741,10 +1741,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.6%."
     }
    ],
-   "expected": 10.7,
+   "expected": 5.5,
    "expected_bias": "Neutral"
   },
   {
@@ -1752,11 +1752,11 @@
    "name": "S&P 500 futures",
    "type": "index",
    "sub": "broad",
-   "price": 7750.5,
-   "chg1d": -0.42,
-   "chg5d": 0.6,
-   "composite": 12.1,
-   "bias": "Bullish",
+   "price": 7755.5,
+   "chg1d": -0.36,
+   "chg5d": 0.66,
+   "composite": 8.6,
+   "bias": "Neutral",
    "confidence": 30,
    "coverage": "10/10 factors live",
    "supports": [
@@ -1787,10 +1787,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -1798,7 +1798,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1806,7 +1806,7 @@
      "score": 0,
      "weight": 2.0,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1846,10 +1846,10 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +0.3%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +0.4%."
     }
    ],
-   "expected": 21.2,
+   "expected": 15.9,
    "expected_bias": "Bullish"
   },
   {
@@ -1857,10 +1857,10 @@
    "name": "Dow Jones futures",
    "type": "index",
    "sub": "value",
-   "price": 52525.0,
-   "chg1d": -0.32,
-   "chg5d": -1.02,
-   "composite": 16.0,
+   "price": 52581.0,
+   "chg1d": -0.22,
+   "chg5d": -0.92,
+   "composite": 12.3,
    "bias": "Bullish",
    "confidence": 30,
    "coverage": "10/10 factors live",
@@ -1870,7 +1870,7 @@
    ],
    "headwinds": [
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-    "Fed policy and rate expectations"
+    "Inflation and jobs data"
    ],
    "factors": [
     {
@@ -1892,10 +1892,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -1903,7 +1903,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1911,7 +1911,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -1951,10 +1951,10 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.5%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.6%."
     }
    ],
-   "expected": 29.6,
+   "expected": 24.0,
    "expected_bias": "Bullish"
   },
   {
@@ -1962,10 +1962,10 @@
    "name": "Russell 2000 futures",
    "type": "index",
    "sub": "small",
-   "price": 2844.8,
-   "chg1d": 0.19,
-   "chg5d": 1.74,
-   "composite": 10.0,
+   "price": 2848.5,
+   "chg1d": 0.32,
+   "chg5d": 1.87,
+   "composite": 6.7,
    "bias": "Neutral",
    "confidence": 20,
    "coverage": "10/10 factors live",
@@ -1997,10 +1997,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2008,7 +2008,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2016,7 +2016,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2056,10 +2056,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +0.6%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +0.8%."
     }
    ],
-   "expected": 20.6,
+   "expected": 15.6,
    "expected_bias": "Bullish"
   },
   {
@@ -2067,10 +2067,10 @@
    "name": "10-year T-note futures",
    "type": "bond",
    "sub": "",
-   "price": 105.94,
-   "chg1d": 0.13,
-   "chg5d": -0.44,
-   "composite": 8.5,
+   "price": 106.03,
+   "chg1d": 0.22,
+   "chg5d": -0.35,
+   "composite": 2.8,
    "bias": "Neutral",
    "confidence": 12,
    "coverage": "8/8 factors live",
@@ -2101,10 +2101,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "risk",
@@ -2112,7 +2112,7 @@
      "score": 0,
      "weight": 0.75,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2144,10 +2144,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +1.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +1.3%."
     }
    ],
-   "expected": 6.1,
+   "expected": -2.5,
    "expected_bias": "Neutral"
   },
   {
@@ -2155,11 +2155,11 @@
    "name": "30-year T-bond futures",
    "type": "bond",
    "sub": "",
-   "price": 107.0,
-   "chg1d": 0.23,
-   "chg5d": -0.7,
-   "composite": 17.1,
-   "bias": "Bullish",
+   "price": 107.22,
+   "chg1d": 0.44,
+   "chg5d": -0.49,
+   "composite": 11.4,
+   "bias": "Neutral",
    "confidence": 25,
    "coverage": "8/8 factors live",
    "supports": [
@@ -2190,10 +2190,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "risk",
@@ -2201,7 +2201,7 @@
      "score": 0,
      "weight": 0.75,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2233,23 +2233,23 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +3.8%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +4.0%."
     }
    ],
-   "expected": 14.7,
-   "expected_bias": "Bullish"
+   "expected": 6.2,
+   "expected_bias": "Neutral"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 80011.96,
-   "chg1d": -1.55,
-   "chg5d": -0.96,
-   "composite": -1.8,
+   "price": 80022.35,
+   "chg1d": -1.53,
+   "chg5d": -0.95,
+   "composite": -5.4,
    "bias": "Neutral",
-   "confidence": 27,
+   "confidence": 36,
    "coverage": "11/11 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2279,10 +2279,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2290,7 +2290,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2298,7 +2298,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2349,7 +2349,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.1%."
     }
    ],
-   "expected": 4.1,
+   "expected": -1.3,
    "expected_bias": "Neutral"
   },
   {
@@ -2357,12 +2357,12 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2320.03,
-   "chg1d": -1.59,
-   "chg5d": -1.52,
-   "composite": -11.3,
-   "bias": "Neutral",
-   "confidence": 33,
+   "price": 2322.95,
+   "chg1d": -1.47,
+   "chg5d": -1.4,
+   "composite": -14.5,
+   "bias": "Bearish",
+   "confidence": 42,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2392,10 +2392,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2403,7 +2403,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2411,7 +2411,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2467,10 +2467,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.5%."
     }
    ],
-   "expected": -5.9,
+   "expected": -10.7,
    "expected_bias": "Neutral"
   },
   {
@@ -2478,12 +2478,12 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 100.09,
-   "chg1d": -2.17,
-   "chg5d": -2.13,
-   "composite": -11.3,
-   "bias": "Neutral",
-   "confidence": 33,
+   "price": 100.52,
+   "chg1d": -1.75,
+   "chg5d": -1.71,
+   "composite": -14.5,
+   "bias": "Bearish",
+   "confidence": 42,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2513,10 +2513,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2524,7 +2524,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2532,7 +2532,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2588,10 +2588,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -8.3%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.9%."
     }
    ],
-   "expected": -5.9,
+   "expected": -10.7,
    "expected_bias": "Neutral"
   },
   {
@@ -2599,12 +2599,12 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.2883,
-   "chg1d": -2.72,
-   "chg5d": -0.78,
-   "composite": -11.3,
-   "bias": "Neutral",
-   "confidence": 33,
+   "price": 1.2907,
+   "chg1d": -2.53,
+   "chg5d": -0.6,
+   "composite": -14.5,
+   "bias": "Bearish",
+   "confidence": 42,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2634,10 +2634,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2645,7 +2645,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2653,7 +2653,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2709,10 +2709,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.5%."
     }
    ],
-   "expected": -5.9,
+   "expected": -10.7,
    "expected_bias": "Neutral"
   },
   {
@@ -2720,12 +2720,12 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 739.15,
-   "chg1d": -2.57,
-   "chg5d": 0.06,
-   "composite": -11.3,
-   "bias": "Neutral",
-   "confidence": 33,
+   "price": 740.62,
+   "chg1d": -2.38,
+   "chg5d": 0.26,
+   "composite": -14.5,
+   "bias": "Bearish",
+   "confidence": 42,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
@@ -2755,10 +2755,10 @@
     {
      "key": "macro",
      "name": "Inflation and jobs data",
-     "score": 0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
     },
     {
      "key": "usd",
@@ -2766,7 +2766,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2774,7 +2774,7 @@
      "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
@@ -2830,10 +2830,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.2%."
     }
    ],
-   "expected": -5.9,
+   "expected": -10.7,
    "expected_bias": "Neutral"
   }
  ],
@@ -2855,22 +2855,22 @@
   {
    "key": "macro",
    "name": "Inflation and jobs data",
-   "score": 0,
-   "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.4% y/y (-0.40pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish.",
+   "score": -1.0,
+   "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish.",
    "ok": true
   },
   {
    "key": "usd",
    "name": "US dollar trend",
    "score": -1,
-   "detail": "DXY 102.20, above its 50-day average, +0.1% in 1 month. Positive means a weaker dollar.",
+   "detail": "DXY 102.26, above its 50-day average, +0.2% in 1 month. Positive means a weaker dollar.",
    "ok": true
   },
   {
    "key": "risk",
    "name": "Risk appetite",
    "score": 0,
-   "detail": "VIX 17.1, S&P 500 -1.0% from its 3-month high. Positive means risk-on.",
+   "detail": "VIX 17.0, S&P 500 -1.0% from its 3-month high. Positive means risk-on.",
    "ok": true
   },
   {
@@ -3168,37 +3168,37 @@
   },
   {
    "date": "2026-10-29",
-   "EURUSD=X": -20.3,
-   "GBPUSD=X": -12.7,
-   "USDJPY=X": 25.9,
-   "AUDUSD=X": -11.9,
-   "NZDUSD=X": -3.0,
-   "USDCAD=X": -10.9,
-   "USDCHF=X": 33.4,
+   "EURUSD=X": -22.8,
+   "GBPUSD=X": -15.1,
+   "USDJPY=X": 28.3,
+   "AUDUSD=X": -14.2,
+   "NZDUSD=X": -5.3,
+   "USDCAD=X": -8.6,
+   "USDCHF=X": 35.9,
    "EURJPY=X": 26.3,
    "GBPJPY=X": 25.0,
    "EURGBP=X": -66.7,
-   "GC=F": -7.2,
-   "SI=F": -14.3,
-   "PL=F": -14.3,
-   "HG=F": 5.8,
+   "GC=F": -11.9,
+   "SI=F": -19.1,
+   "PL=F": -19.1,
+   "HG=F": 3.3,
    "CL=F": 13.5,
    "BZ=F": 13.5,
-   "NG=F": -5.2,
+   "NG=F": -14.6,
    "ZW=F": -57.1,
    "ZC=F": -57.1,
    "ZS=F": -35.7,
-   "NQ=F": 5.2,
-   "ES=F": 12.1,
-   "YM=F": 16.0,
-   "RTY=F": 10.0,
-   "ZN=F": 8.5,
-   "ZB=F": 17.1,
-   "BTC-USD": -1.8,
-   "ETH-USD": -11.3,
-   "SOL-USD": -11.3,
-   "XRP-USD": -11.3,
-   "BNB-USD": -11.3
+   "NQ=F": 1.7,
+   "ES=F": 8.6,
+   "YM=F": 12.3,
+   "RTY=F": 6.7,
+   "ZN=F": 2.8,
+   "ZB=F": 11.4,
+   "BTC-USD": -5.4,
+   "ETH-USD": -14.5,
+   "SOL-USD": -14.5,
+   "XRP-USD": -14.5,
+   "BNB-USD": -14.5
   }
  ]
 }
