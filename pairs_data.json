@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30 02:27",
+ "generated_utc": "2026-10-30 03:16",
  "demo": false,
  "instruments": [
   {
@@ -7,9 +7,9 @@
    "name": "EUR/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.11995,
-   "chg1d": 0.39,
-   "chg5d": -0.2,
+   "price": 1.12032,
+   "chg1d": 0.43,
+   "chg5d": -0.16,
    "composite": -26.7,
    "bias": "Bearish",
    "confidence": 71,
@@ -52,7 +52,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -87,9 +87,9 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.3393,
-   "chg1d": 0.49,
-   "chg5d": -0.08,
+   "price": 1.34016,
+   "chg1d": 0.55,
+   "chg5d": -0.02,
    "composite": 1.8,
    "bias": "Neutral",
    "confidence": 29,
@@ -133,7 +133,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -168,10 +168,10 @@
    "name": "USD/JPY",
    "type": "forex",
    "sub": "",
-   "price": 157.47,
-   "chg1d": -0.23,
-   "chg5d": 0.62,
-   "composite": 30.4,
+   "price": 157.23,
+   "chg1d": -0.38,
+   "chg5d": 0.47,
+   "composite": 21.6,
    "bias": "Bullish",
    "confidence": 57,
    "coverage": "7/7 factors live",
@@ -180,7 +180,8 @@
     "US dollar trend"
    ],
    "headwinds": [
-    "Treasury and real yields"
+    "Treasury and real yields",
+    "Price trend and momentum"
    ],
    "factors": [
     {
@@ -213,7 +214,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -234,13 +235,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 0.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.3%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.4%."
     }
    ],
-   "expected": 34.8,
+   "expected": 21.6,
    "expected_bias": "Bullish"
   },
   {
@@ -248,9 +249,9 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.70368,
-   "chg1d": -0.3,
-   "chg5d": 0.24,
+   "price": 0.70403,
+   "chg1d": -0.25,
+   "chg5d": 0.29,
    "composite": -6.0,
    "bias": "Neutral",
    "confidence": 43,
@@ -293,7 +294,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -328,9 +329,9 @@
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.56335,
-   "chg1d": 0.08,
-   "chg5d": -0.91,
+   "price": 0.56421,
+   "chg1d": 0.23,
+   "chg5d": -0.76,
    "composite": -14.1,
    "bias": "Bearish",
    "confidence": 57,
@@ -373,7 +374,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -397,7 +398,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +0.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +0.7%."
     }
    ],
    "expected": -19.4,
@@ -408,9 +409,9 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.39679,
-   "chg1d": -0.14,
-   "chg5d": -0.25,
+   "price": 1.39653,
+   "chg1d": -0.15,
+   "chg5d": -0.27,
    "composite": -12.7,
    "bias": "Bearish",
    "confidence": 43,
@@ -454,7 +455,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -489,12 +490,12 @@
    "name": "USD/CHF",
    "type": "forex",
    "sub": "",
-   "price": 0.82127,
-   "chg1d": -0.81,
-   "chg5d": 0.18,
-   "composite": 39.2,
-   "bias": "Strong bullish",
-   "confidence": 71,
+   "price": 0.82073,
+   "chg1d": -0.87,
+   "chg5d": 0.11,
+   "composite": 30.4,
+   "bias": "Bullish",
+   "confidence": 57,
    "coverage": "7/7 factors live",
    "supports": [
     "Interest-rate differential",
@@ -534,7 +535,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -555,23 +556,23 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 1.0,
+     "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move -1.1%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.2%."
     }
    ],
-   "expected": 39.2,
-   "expected_bias": "Strong bullish"
+   "expected": 26.0,
+   "expected_bias": "Bullish"
   },
   {
    "symbol": "EURJPY=X",
    "name": "EUR/JPY",
    "type": "forex",
    "sub": "",
-   "price": 176.32,
-   "chg1d": 0.15,
-   "chg5d": 0.41,
+   "price": 176.08,
+   "chg1d": 0.01,
+   "chg5d": 0.28,
    "composite": 26.3,
    "bias": "Bullish",
    "confidence": 33,
@@ -605,7 +606,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.7%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.9%."
     }
    ],
    "expected": 34.2,
@@ -616,17 +617,19 @@
    "name": "GBP/JPY",
    "type": "forex",
    "sub": "",
-   "price": 210.9,
-   "chg1d": 0.27,
-   "chg5d": 0.54,
-   "composite": 40.0,
-   "bias": "Strong bullish",
+   "price": 210.69,
+   "chg1d": 0.17,
+   "chg5d": 0.44,
+   "composite": 25.0,
+   "bias": "Bullish",
    "confidence": 33,
    "coverage": "3/3 factors live",
    "supports": [
     "Interest-rate differential"
    ],
-   "headwinds": [],
+   "headwinds": [
+    "Price trend and momentum"
+   ],
    "factors": [
     {
      "key": "risk",
@@ -647,23 +650,23 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 0.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +1.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +1.1%."
     }
    ],
-   "expected": 47.5,
-   "expected_bias": "Strong bullish"
+   "expected": 25.0,
+   "expected_bias": "Bullish"
   },
   {
    "symbol": "EURGBP=X",
    "name": "EUR/GBP",
    "type": "forex",
    "sub": "",
-   "price": 0.83599,
-   "chg1d": -0.11,
-   "chg5d": -0.13,
+   "price": 0.83571,
+   "chg1d": -0.14,
+   "chg5d": -0.17,
    "composite": -66.7,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -707,9 +710,9 @@
    "name": "Gold",
    "type": "commodity",
    "sub": "precious",
-   "price": 4023.6,
-   "chg1d": -0.19,
-   "chg5d": 0.39,
+   "price": 4007.7,
+   "chg1d": -0.59,
+   "chg5d": -0.0,
    "composite": -5.9,
    "bias": "Neutral",
    "confidence": 67,
@@ -752,7 +755,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -768,7 +771,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.3%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.7%."
     }
    ],
    "expected": -1.5,
@@ -779,9 +782,9 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 51.675,
-   "chg1d": -0.99,
-   "chg5d": -3.79,
+   "price": 51.38,
+   "chg1d": -1.55,
+   "chg5d": -4.34,
    "composite": -14.7,
    "bias": "Bearish",
    "confidence": 67,
@@ -824,7 +827,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -840,7 +843,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.3%."
     }
    ],
    "expected": -14.7,
@@ -851,9 +854,9 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1468.1,
-   "chg1d": -1.79,
-   "chg5d": -5.54,
+   "price": 1456.4,
+   "chg1d": -2.57,
+   "chg5d": -6.29,
    "composite": -14.7,
    "bias": "Bearish",
    "confidence": 67,
@@ -896,7 +899,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -912,7 +915,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.5%."
     }
    ],
    "expected": -14.7,
@@ -923,9 +926,9 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 6.5695,
-   "chg1d": -0.17,
-   "chg5d": 1.44,
+   "price": 6.557,
+   "chg1d": -0.36,
+   "chg5d": 1.25,
    "composite": -16.7,
    "bias": "Bearish",
    "confidence": 57,
@@ -968,7 +971,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -992,7 +995,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +1.2%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +1.0%."
     }
    ],
    "expected": -11.2,
@@ -1003,9 +1006,9 @@
    "name": "WTI crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 104.15,
-   "chg1d": 2.11,
-   "chg5d": 0.85,
+   "price": 103.49,
+   "chg1d": 1.46,
+   "chg5d": 0.21,
    "composite": 2.7,
    "bias": "Neutral",
    "confidence": 20,
@@ -1032,7 +1035,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1056,7 +1059,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +14.3%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +13.6%."
     }
    ],
    "expected": 11.1,
@@ -1067,9 +1070,9 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 113.05,
-   "chg1d": -1.59,
-   "chg5d": -3.14,
+   "price": 112.39,
+   "chg1d": -2.17,
+   "chg5d": -3.71,
    "composite": 2.7,
    "bias": "Neutral",
    "confidence": 20,
@@ -1096,7 +1099,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1120,7 +1123,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +10.6%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +9.9%."
     }
    ],
    "expected": 17.3,
@@ -1131,9 +1134,9 @@
    "name": "Natural gas",
    "type": "commodity",
    "sub": "energy",
-   "price": 2.897,
-   "chg1d": -1.86,
-   "chg5d": 9.73,
+   "price": 2.901,
+   "chg1d": -1.73,
+   "chg5d": 9.89,
    "composite": -34.8,
    "bias": "Bearish",
    "confidence": 80,
@@ -1158,7 +1161,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1182,7 +1185,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.4%."
     }
    ],
    "expected": -32.7,
@@ -1193,9 +1196,9 @@
    "name": "Wheat",
    "type": "commodity",
    "sub": "agri",
-   "price": 607.25,
-   "chg1d": 0.58,
-   "chg5d": -2.84,
+   "price": 605.75,
+   "chg1d": 0.33,
+   "chg5d": -3.08,
    "composite": -61.9,
    "bias": "Strong bearish",
    "confidence": 75,
@@ -1212,7 +1215,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1236,7 +1239,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.3%."
     }
    ],
    "expected": -69.0,
@@ -1247,9 +1250,9 @@
    "name": "Corn",
    "type": "commodity",
    "sub": "agri",
-   "price": 450.75,
-   "chg1d": -0.11,
-   "chg5d": -1.15,
+   "price": 450.5,
+   "chg1d": -0.17,
+   "chg5d": -1.21,
    "composite": -61.9,
    "bias": "Strong bearish",
    "confidence": 75,
@@ -1266,7 +1269,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1290,7 +1293,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -9.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -9.5%."
     }
    ],
    "expected": -58.3,
@@ -1301,9 +1304,9 @@
    "name": "Soybeans",
    "type": "commodity",
    "sub": "agri",
-   "price": 1236.0,
-   "chg1d": 1.33,
-   "chg5d": -1.63,
+   "price": 1237.0,
+   "chg1d": 1.41,
+   "chg5d": -1.55,
    "composite": -19.1,
    "bias": "Bearish",
    "confidence": 50,
@@ -1320,7 +1323,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1344,7 +1347,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.3%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.2%."
     }
    ],
    "expected": -4.9,
@@ -1355,9 +1358,9 @@
    "name": "Nasdaq 100 futures",
    "type": "index",
    "sub": "growth",
-   "price": 28872.0,
-   "chg1d": -2.33,
-   "chg5d": -0.84,
+   "price": 28893.25,
+   "chg1d": -2.26,
+   "chg5d": -0.77,
    "composite": -3.6,
    "bias": "Neutral",
    "confidence": 71,
@@ -1400,7 +1403,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1435,9 +1438,9 @@
    "name": "S&P 500 futures",
    "type": "index",
    "sub": "broad",
-   "price": 7670.5,
-   "chg1d": -1.08,
-   "chg5d": 0.14,
+   "price": 7673.25,
+   "chg1d": -1.04,
+   "chg5d": 0.18,
    "composite": -2.7,
    "bias": "Neutral",
    "confidence": 57,
@@ -1480,7 +1483,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1504,7 +1507,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.3%."
     }
    ],
    "expected": 0.6,
@@ -1515,9 +1518,9 @@
    "name": "Dow Jones futures",
    "type": "index",
    "sub": "value",
-   "price": 52352.0,
-   "chg1d": -0.3,
-   "chg5d": -0.08,
+   "price": 52397.0,
+   "chg1d": -0.22,
+   "chg5d": 0.01,
    "composite": -8.9,
    "bias": "Neutral",
    "confidence": 57,
@@ -1560,7 +1563,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1584,7 +1587,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +1.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move +1.8%."
     }
    ],
    "expected": -4.5,
@@ -1595,9 +1598,9 @@
    "name": "Russell 2000 futures",
    "type": "index",
    "sub": "small",
-   "price": 2852.7,
-   "chg1d": -0.51,
-   "chg5d": 2.45,
+   "price": 2855.1,
+   "chg1d": -0.43,
+   "chg5d": 2.54,
    "composite": 0.8,
    "bias": "Neutral",
    "confidence": 14,
@@ -1640,7 +1643,7 @@
      "score": -1,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1675,9 +1678,9 @@
    "name": "10-year T-note futures",
    "type": "bond",
    "sub": "",
-   "price": 106.73,
-   "chg1d": 0.52,
-   "chg5d": 0.54,
+   "price": 106.75,
+   "chg1d": 0.53,
+   "chg5d": 0.56,
    "composite": 26.4,
    "bias": "Bullish",
    "confidence": 50,
@@ -1748,9 +1751,9 @@
    "name": "30-year T-bond futures",
    "type": "bond",
    "sub": "",
-   "price": 108.03,
-   "chg1d": 0.7,
-   "chg5d": 0.73,
+   "price": 108.06,
+   "chg1d": 0.73,
+   "chg5d": 0.76,
    "composite": 26.4,
    "bias": "Bullish",
    "confidence": 50,
@@ -1810,7 +1813,7 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +5.1%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +5.2%."
     }
    ],
    "expected": 24.6,
@@ -1821,9 +1824,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 77035.3,
-   "chg1d": -5.21,
-   "chg5d": -4.65,
+   "price": 77116.96,
+   "chg1d": -5.11,
+   "chg5d": -4.55,
    "composite": -7.1,
    "bias": "Neutral",
    "confidence": 62,
@@ -1867,7 +1870,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1899,7 +1902,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.6%."
     }
    ],
    "expected": -7.1,
@@ -1910,9 +1913,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2209.9,
-   "chg1d": -6.27,
-   "chg5d": -6.2,
+   "price": 2206.4,
+   "chg1d": -6.41,
+   "chg5d": -6.35,
    "composite": -19.7,
    "bias": "Bearish",
    "confidence": 67,
@@ -1956,7 +1959,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1996,7 +1999,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -11.1%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -11.2%."
     }
    ],
    "expected": -16.3,
@@ -2007,9 +2010,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 94.93,
-   "chg1d": -7.21,
-   "chg5d": -7.18,
+   "price": 95.36,
+   "chg1d": -6.79,
+   "chg5d": -6.76,
    "composite": -19.7,
    "bias": "Bearish",
    "confidence": 67,
@@ -2053,7 +2056,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2093,7 +2096,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -13.0%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -12.6%."
     }
    ],
    "expected": -16.3,
@@ -2104,9 +2107,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.2181,
-   "chg1d": -8.02,
-   "chg5d": -6.19,
+   "price": 1.2227,
+   "chg1d": -7.67,
+   "chg5d": -5.84,
    "composite": -26.5,
    "bias": "Bearish",
    "confidence": 67,
@@ -2150,7 +2153,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2190,7 +2193,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.7%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.4%."
     }
    ],
    "expected": -26.5,
@@ -2201,9 +2204,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 711.9,
-   "chg1d": -6.16,
-   "chg5d": -3.63,
+   "price": 707.33,
+   "chg1d": -6.77,
+   "chg5d": -4.25,
    "composite": -12.9,
    "bias": "Bearish",
    "confidence": 56,
@@ -2247,7 +2250,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2287,7 +2290,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.1%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.7%."
     }
    ],
    "expected": -9.5,
@@ -2320,7 +2323,7 @@
    "key": "usd",
    "name": "US dollar trend",
    "score": -1,
-   "detail": "DXY 101.72, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar.",
+   "detail": "DXY 101.70, above its 50-day average, -0.2% in 1 month. Positive means a weaker dollar.",
    "ok": true
   },
   {
@@ -2904,13 +2907,13 @@
    "date": "2026-10-30",
    "EURUSD=X": -26.7,
    "GBPUSD=X": 1.8,
-   "USDJPY=X": 30.4,
+   "USDJPY=X": 21.6,
    "AUDUSD=X": -6.0,
    "NZDUSD=X": -14.1,
    "USDCAD=X": -12.7,
-   "USDCHF=X": 39.2,
+   "USDCHF=X": 30.4,
    "EURJPY=X": 26.3,
-   "GBPJPY=X": 40.0,
+   "GBPJPY=X": 25.0,
    "EURGBP=X": -66.7,
    "GC=F": -5.9,
    "SI=F": -14.7,
