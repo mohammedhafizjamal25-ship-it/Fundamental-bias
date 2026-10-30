@@ -1,20 +1,20 @@
 {
- "generated_utc": "2026-10-30 13:43",
+ "generated_utc": "2026-10-30 14:39",
  "demo": false,
  "market": {
-  "gold": 3941.9,
-  "dxy": 101.91,
-  "btc": 76914.0,
+  "gold": 3916.5,
+  "dxy": 102.03,
+  "btc": 76846.0,
   "us10y": 5.05,
   "real10y": 2.67
  },
  "assets": {
   "gold": {
-   "composite": -2.8,
+   "composite": 2.8,
    "bias": "Neutral",
-   "expected": -2.8,
+   "expected": 5.6,
    "expected_bias": "Neutral",
-   "confidence": 57,
+   "confidence": 29,
    "factors": [
     {
      "key": "policy",
@@ -46,15 +46,15 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.91, above its 50d average (100.82), -0.0% in 1m. 60d correlation with gold: -0.43."
+     "detail": "DXY 102.03, above its 50d average (100.82), +0.1% in 1m. 60d correlation with gold: -0.43."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 0,
+     "score": 1,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 18.7, S&P 500 -2.5% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 20.1, S&P 500 -2.5% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -62,7 +62,7 @@
      "score": 0.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.3% in 1m, volume x0.80. IBIT -8.9% in 1m, volume x0.74 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.7% in 1m, volume x0.81. IBIT -9.0% in 1m, volume x0.76 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -74,7 +74,8 @@
     }
    ],
    "supports": [
-    "Treasury and real yields"
+    "Treasury and real yields",
+    "Geopolitical risk and safe haven"
    ],
    "headwinds": [
     "US dollar (DXY)",
@@ -83,11 +84,11 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -13.9,
+   "composite": -22.2,
    "bias": "Bearish",
-   "expected": -15.3,
+   "expected": -27.8,
    "expected_bias": "Bearish",
-   "confidence": 57,
+   "confidence": 71,
    "factors": [
     {
      "key": "policy",
@@ -119,15 +120,15 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.91, above its 50d average (100.82), -0.0% in 1m. 60d correlation with gold: -0.43."
+     "detail": "DXY 102.03, above its 50d average (100.82), +0.1% in 1m. 60d correlation with gold: -0.43."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 0,
+     "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 18.7, S&P 500 -2.5% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 20.1, S&P 500 -2.5% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -135,7 +136,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.3% in 1m, volume x0.80. IBIT -8.9% in 1m, volume x0.74 vs 3m avg."
+     "detail": "Central-bank buying input +1 (structural net buying since 2022; edit manual.json). GLD -5.7% in 1m, volume x0.81. IBIT -9.0% in 1m, volume x0.76 vs 3m avg."
     },
     {
      "key": "sentiment",
@@ -151,7 +152,7 @@
    ],
    "headwinds": [
     "Central banks, ETFs, physical demand",
-    "Rates and Fed policy"
+    "Geopolitical risk and safe haven"
    ],
    "coverage": "7/7 factors live"
   }
@@ -245,8 +246,8 @@
   },
   {
    "date": "2026-10-30",
-   "gold": -2.8,
-   "btc": -13.9
+   "gold": 2.8,
+   "btc": -22.2
   }
  ]
 }
