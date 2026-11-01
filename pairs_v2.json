@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-01 03:45",
+ "generated_utc": "2026-11-01 04:45",
  "demo": false,
  "instruments": [
   {
@@ -920,9 +920,9 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 49.097,
-   "chg1d": -5.93,
-   "chg5d": -8.59,
+   "price": 49.276,
+   "chg1d": -5.59,
+   "chg5d": -8.26,
    "composite": -14.3,
    "bias": "Bearish",
    "confidence": 56,
@@ -1005,7 +1005,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -18.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.8%."
     }
    ],
    "expected": -15.5,
@@ -1016,9 +1016,9 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1438.0,
-   "chg1d": -3.8,
-   "chg5d": -7.48,
+   "price": 1436.0,
+   "chg1d": -3.93,
+   "chg5d": -7.61,
    "composite": -14.3,
    "bias": "Bearish",
    "confidence": 56,
@@ -1101,7 +1101,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.7%."
     }
    ],
    "expected": -15.5,
@@ -1112,9 +1112,9 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 6.4585,
-   "chg1d": -1.86,
-   "chg5d": -0.27,
+   "price": 6.482,
+   "chg1d": -1.5,
+   "chg5d": 0.09,
    "composite": -12.5,
    "bias": "Bearish",
    "confidence": 40,
@@ -1206,7 +1206,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.5%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.2%."
     }
    ],
    "expected": -22.9,
@@ -1306,9 +1306,9 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 117.64,
-   "chg1d": 2.4,
-   "chg5d": 0.79,
+   "price": 113.43,
+   "chg1d": -1.26,
+   "chg5d": -2.82,
    "composite": 3.1,
    "bias": "Neutral",
    "confidence": 25,
@@ -1384,7 +1384,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +15.1%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +10.9%."
     }
    ],
    "expected": 1.0,
@@ -1591,17 +1591,17 @@
    "name": "Soybeans",
    "type": "commodity",
    "sub": "agri",
-   "price": 1222.25,
-   "chg1d": 0.2,
-   "chg5d": -2.73,
-   "composite": -42.9,
-   "bias": "Strong bearish",
-   "confidence": 75,
+   "price": 1234.25,
+   "chg1d": 1.19,
+   "chg5d": -1.77,
+   "composite": -21.4,
+   "bias": "Bearish",
+   "confidence": 50,
    "coverage": "4/4 factors live",
    "supports": [],
    "headwinds": [
-    "Price trend and momentum",
-    "US dollar trend"
+    "US dollar trend",
+    "Global growth (stocks, China, copper)"
    ],
    "factors": [
     {
@@ -1631,14 +1631,14 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.4%."
     }
    ],
-   "expected": -46.5,
-   "expected_bias": "Strong bearish"
+   "expected": -14.2,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "NQ=F",
@@ -2243,9 +2243,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 77679.29,
-   "chg1d": 0.62,
-   "chg5d": -2.91,
+   "price": 77682.55,
+   "chg1d": 0.63,
+   "chg5d": -2.9,
    "composite": -3.6,
    "bias": "Neutral",
    "confidence": 45,
@@ -2356,9 +2356,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2266.74,
-   "chg1d": 1.15,
-   "chg5d": -2.31,
+   "price": 2264.2,
+   "chg1d": 1.03,
+   "chg5d": -2.42,
    "composite": -12.9,
    "bias": "Bearish",
    "confidence": 50,
@@ -2466,7 +2466,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -10.6%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -10.7%."
     }
    ],
    "expected": -12.9,
@@ -2477,9 +2477,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 95.57,
-   "chg1d": -0.67,
-   "chg5d": -5.15,
+   "price": 95.34,
+   "chg1d": -0.91,
+   "chg5d": -5.37,
    "composite": -12.9,
    "bias": "Bearish",
    "confidence": 50,
@@ -2587,7 +2587,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.1%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.3%."
     }
    ],
    "expected": -12.9,
@@ -2598,9 +2598,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.249,
-   "chg1d": -0.43,
-   "chg5d": -4.43,
+   "price": 1.2487,
+   "chg1d": -0.46,
+   "chg5d": -4.45,
    "composite": -17.7,
    "bias": "Bearish",
    "confidence": 50,
@@ -2719,9 +2719,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 702.37,
-   "chg1d": -0.14,
-   "chg5d": -5.27,
+   "price": 703.94,
+   "chg1d": 0.08,
+   "chg5d": -5.06,
    "composite": -8.1,
    "bias": "Neutral",
    "confidence": 42,
@@ -2829,7 +2829,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.8%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.6%."
     }
    ],
    "expected": -8.1,
@@ -3288,7 +3288,7 @@
    "NG=F": -25.0,
    "ZW=F": -64.3,
    "ZC=F": -64.3,
-   "ZS=F": -42.9,
+   "ZS=F": -21.4,
    "NQ=F": 1.7,
    "ES=F": 1.7,
    "YM=F": -3.7,
