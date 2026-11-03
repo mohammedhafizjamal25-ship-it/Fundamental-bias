@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-11-02 23:59",
+ "generated_utc": "2026-11-03 02:42",
  "demo": false,
  "market": {
-  "gold": 3957.3,
-  "dxy": 101.8,
-  "btc": 76681.0,
+  "gold": 3955.0,
+  "dxy": 101.85,
+  "btc": 76790.0,
   "us10y": 4.94,
   "real10y": 2.6
  },
@@ -46,7 +46,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.80, above its 50d average (100.87), -0.4% in 1m. 60d correlation with gold: -0.38."
+     "detail": "DXY 101.85, above its 50d average (100.93), +0.0% in 1m. 60d correlation with gold: -0.38."
     },
     {
      "key": "risk",
@@ -70,7 +70,7 @@
      "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 37. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 26. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
@@ -120,7 +120,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.80, above its 50d average (100.87), -0.4% in 1m. 60d correlation with gold: -0.38."
+     "detail": "DXY 101.85, above its 50d average (100.93), +0.0% in 1m. 60d correlation with gold: -0.38."
     },
     {
      "key": "risk",
@@ -144,7 +144,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 37. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 26. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
@@ -251,6 +251,11 @@
   },
   {
    "date": "2026-11-02",
+   "gold": 8.3,
+   "btc": -16.7
+  },
+  {
+   "date": "2026-11-03",
    "gold": 8.3,
    "btc": -16.7
   }
