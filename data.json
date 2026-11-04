@@ -1,20 +1,20 @@
 {
- "generated_utc": "2026-11-04 07:46",
+ "generated_utc": "2026-11-04 08:49",
  "demo": false,
  "market": {
-  "gold": 4037.9,
-  "dxy": 101.44,
-  "btc": 78082.0,
+  "gold": 4044.3,
+  "dxy": 101.39,
+  "btc": 78386.0,
   "us10y": 4.91,
   "real10y": 2.62
  },
  "assets": {
   "gold": {
-   "composite": 8.3,
+   "composite": 2.8,
    "bias": "Neutral",
-   "expected": 11.1,
+   "expected": 2.8,
    "expected_bias": "Neutral",
-   "confidence": 29,
+   "confidence": 14,
    "factors": [
     {
      "key": "policy",
@@ -46,15 +46,15 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.44, above its 50d average (100.98), -0.8% in 1m. 60d correlation with gold: -0.42."
+     "detail": "DXY 101.39, above its 50d average (100.98), -0.8% in 1m. 60d correlation with gold: -0.43."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 1,
+     "score": 0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 20.8, S&P 500 -3.2% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 19.1, S&P 500 -3.2% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -74,8 +74,7 @@
     }
    ],
    "supports": [
-    "Treasury and real yields",
-    "Geopolitical risk and safe haven"
+    "Treasury and real yields"
    ],
    "headwinds": [
     "US dollar (DXY)",
@@ -84,11 +83,11 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -16.7,
-   "bias": "Bearish",
-   "expected": -20.8,
-   "expected_bias": "Bearish",
-   "confidence": 57,
+   "composite": -8.3,
+   "bias": "Neutral",
+   "expected": -8.2,
+   "expected_bias": "Neutral",
+   "confidence": 43,
    "factors": [
     {
      "key": "policy",
@@ -120,15 +119,15 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.44, above its 50d average (100.98), -0.8% in 1m. 60d correlation with gold: -0.42."
+     "detail": "DXY 101.39, above its 50d average (100.98), -0.8% in 1m. 60d correlation with gold: -0.43."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": -1,
+     "score": 0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 20.8, S&P 500 -3.2% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 19.1, S&P 500 -3.2% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -152,7 +151,7 @@
    ],
    "headwinds": [
     "Central banks, ETFs, physical demand",
-    "Geopolitical risk and safe haven"
+    "US dollar (DXY)"
    ],
    "coverage": "7/7 factors live"
   }
@@ -261,8 +260,8 @@
   },
   {
    "date": "2026-11-04",
-   "gold": 8.3,
-   "btc": -16.7
+   "gold": 2.8,
+   "btc": -8.3
   }
  ]
 }
