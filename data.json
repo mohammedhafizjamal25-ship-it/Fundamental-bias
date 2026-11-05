@@ -1,18 +1,18 @@
 {
- "generated_utc": "2026-11-05 21:14",
+ "generated_utc": "2026-11-05 22:02",
  "demo": false,
  "market": {
-  "gold": 4099.5,
+  "gold": 4098.1,
   "dxy": 101.6,
-  "btc": 75929.0,
-  "us10y": 4.95,
-  "real10y": 2.65
+  "btc": 75729.0,
+  "us10y": 4.9,
+  "real10y": 2.64
  },
  "assets": {
   "gold": {
-   "composite": 11.1,
-   "bias": "Neutral",
-   "expected": 18.0,
+   "composite": 16.7,
+   "bias": "Bullish",
+   "expected": 26.4,
    "expected_bias": "Bullish",
    "confidence": 43,
    "factors": [
@@ -22,7 +22,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.61% (+73bp). Market is pricing hikes. 2y moved -23bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.58% (+70bp). Market is pricing hikes. 2y moved -21bp in 1 month."
     },
     {
      "key": "yields",
@@ -30,7 +30,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.65% (-30bp in 1m), 10y nominal 4.95% (-36bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.64% (-27bp in 1m), 10y nominal 4.90% (-37bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -51,10 +51,10 @@
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 1,
+     "score": 2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 27.4, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 28.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -84,9 +84,9 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -16.7,
+   "composite": -25.0,
    "bias": "Bearish",
-   "expected": -18.1,
+   "expected": -30.6,
    "expected_bias": "Bearish",
    "confidence": 57,
    "factors": [
@@ -96,7 +96,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.61% (+73bp). Market is pricing hikes. 2y moved -23bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.58% (+70bp). Market is pricing hikes. 2y moved -21bp in 1 month."
     },
     {
      "key": "yields",
@@ -104,7 +104,7 @@
      "score": 2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.65% (-30bp in 1m), 10y nominal 4.95% (-36bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.64% (-27bp in 1m), 10y nominal 4.90% (-37bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -125,10 +125,10 @@
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": -1,
+     "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 27.4, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 28.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -151,8 +151,8 @@
     "Treasury and real yields"
    ],
    "headwinds": [
-    "Central banks, ETFs, physical demand",
-    "Geopolitical risk and safe haven"
+    "Geopolitical risk and safe haven",
+    "Central banks, ETFs, physical demand"
    ],
    "coverage": "7/7 factors live"
   }
@@ -266,8 +266,8 @@
   },
   {
    "date": "2026-11-05",
-   "gold": 11.1,
-   "btc": -16.7
+   "gold": 16.7,
+   "btc": -25.0
   }
  ]
 }
