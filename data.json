@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-11-05 23:39",
+ "generated_utc": "2026-11-06 00:21",
  "demo": false,
  "market": {
-  "gold": 4104.1,
+  "gold": 4111.5,
   "dxy": 101.57,
-  "btc": 75763.0,
+  "btc": 76043.0,
   "us10y": 4.9,
   "real10y": 2.64
  },
@@ -12,7 +12,7 @@
   "gold": {
    "composite": 16.7,
    "bias": "Bullish",
-   "expected": 26.4,
+   "expected": 23.6,
    "expected_bias": "Bullish",
    "confidence": 43,
    "factors": [
@@ -46,7 +46,7 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.57, above its 50d average (101.03), -0.6% in 1m. 60d correlation with gold: -0.43."
+     "detail": "DXY 101.57, above its 50d average (101.03), -0.6% in 1m. 60d correlation with gold: -0.42."
     },
     {
      "key": "risk",
@@ -70,7 +70,7 @@
      "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 50. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 28. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
@@ -86,7 +86,7 @@
   "btc": {
    "composite": -25.0,
    "bias": "Bearish",
-   "expected": -30.6,
+   "expected": -33.4,
    "expected_bias": "Bearish",
    "confidence": 57,
    "factors": [
@@ -120,7 +120,7 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.57, above its 50d average (101.03), -0.6% in 1m. 60d correlation with gold: -0.43."
+     "detail": "DXY 101.57, above its 50d average (101.03), -0.6% in 1m. 60d correlation with gold: -0.42."
     },
     {
      "key": "risk",
@@ -144,7 +144,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 50. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 24th percentile (3y). BTC: BTC mixed vs its 50d/200d averages, crypto Fear & Greed 28. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
@@ -266,6 +266,11 @@
   },
   {
    "date": "2026-11-05",
+   "gold": 16.7,
+   "btc": -25.0
+  },
+  {
+   "date": "2026-11-06",
    "gold": 16.7,
    "btc": -25.0
   }
