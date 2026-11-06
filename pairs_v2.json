@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-05 23:17",
+ "generated_utc": "2026-11-06 00:06",
  "demo": false,
  "instruments": [
   {
@@ -7,9 +7,9 @@
    "name": "EUR/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.12221,
-   "chg1d": 0.13,
-   "chg5d": 0.59,
+   "price": 1.12372,
+   "chg1d": 0.02,
+   "chg5d": 0.49,
    "composite": -19.5,
    "bias": "Bearish",
    "confidence": 56,
@@ -104,9 +104,9 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.34542,
-   "chg1d": 0.15,
-   "chg5d": 0.95,
+   "price": 1.34629,
+   "chg1d": -0.11,
+   "chg5d": 0.63,
    "composite": 9.5,
    "bias": "Neutral",
    "confidence": 44,
@@ -201,9 +201,9 @@
    "name": "USD/JPY",
    "type": "forex",
    "sub": "",
-   "price": 157.52,
-   "chg1d": -0.6,
-   "chg5d": -0.2,
+   "price": 157.48,
+   "chg1d": -0.56,
+   "chg5d": -0.21,
    "composite": 10.0,
    "bias": "Neutral",
    "confidence": 44,
@@ -279,7 +279,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved -17bp in about 3 months. Rate data is up to 1070 days old."
+     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved -17bp in about 3 months. Rate data is up to 1071 days old."
     },
     {
      "key": "trend",
@@ -287,7 +287,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.3%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.4%."
     }
    ],
    "expected": 2.5,
@@ -298,9 +298,9 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.69295,
-   "chg1d": -0.56,
-   "chg5d": -1.82,
+   "price": 0.69348,
+   "chg1d": -0.99,
+   "chg5d": -1.31,
    "composite": -17.4,
    "bias": "Bearish",
    "confidence": 56,
@@ -376,7 +376,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: AUD 4.35% vs USD 3.88% (+0.47 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved +24bp in about 3 months. Rate data is up to 65 days old."
+     "detail": "Short rates: AUD 4.35% vs USD 3.88% (+0.47 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved +24bp in about 3 months. Rate data is up to 66 days old."
     },
     {
      "key": "trend",
@@ -384,7 +384,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.3%."
     }
    ],
    "expected": -25.0,
@@ -395,9 +395,9 @@
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.55957,
-   "chg1d": 0.05,
-   "chg5d": -0.59,
+   "price": 0.55966,
+   "chg1d": -0.49,
+   "chg5d": -0.63,
    "composite": -15.9,
    "bias": "Bearish",
    "confidence": 56,
@@ -473,7 +473,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved +27bp in about 3 months. Rate data is up to 704 days old."
+     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved +27bp in about 3 months. Rate data is up to 705 days old."
     },
     {
      "key": "trend",
@@ -492,9 +492,9 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.40184,
-   "chg1d": 0.1,
-   "chg5d": 0.23,
+   "price": 1.40145,
+   "chg1d": 0.3,
+   "chg5d": 0.2,
    "composite": -9.8,
    "bias": "Neutral",
    "confidence": 44,
@@ -570,7 +570,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved -25bp in about 3 months. Rate data is up to 1070 days old."
+     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved -25bp in about 3 months. Rate data is up to 1071 days old."
     },
     {
      "key": "trend",
@@ -578,7 +578,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.5%."
     }
    ],
    "expected": -4.2,
@@ -589,9 +589,9 @@
    "name": "USD/CHF",
    "type": "forex",
    "sub": "",
-   "price": 0.81596,
-   "chg1d": -0.41,
-   "chg5d": -1.45,
+   "price": 0.81521,
+   "chg1d": -0.16,
+   "chg5d": -1.02,
    "composite": 12.5,
    "bias": "Bullish",
    "confidence": 44,
@@ -667,7 +667,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CHF 1.34% (+2.54 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved -7bp in about 3 months. Rate data is up to 979 days old."
+     "detail": "Short rates: USD 3.88% vs CHF 1.34% (+2.54 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved -7bp in about 3 months. Rate data is up to 980 days old."
     },
     {
      "key": "trend",
@@ -675,7 +675,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -2.0%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.9%."
     }
    ],
    "expected": 2.5,
@@ -686,9 +686,9 @@
    "name": "EUR/JPY",
    "type": "forex",
    "sub": "",
-   "price": 176.73,
-   "chg1d": -0.49,
-   "chg5d": 0.38,
+   "price": 176.9,
+   "chg1d": -0.57,
+   "chg5d": 0.24,
    "composite": 0.0,
    "bias": "Neutral",
    "confidence": 0,
@@ -715,7 +715,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +13bp in about 3 months. Rate data is up to 1070 days old."
+     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +13bp in about 3 months. Rate data is up to 1071 days old."
     },
     {
      "key": "trend",
@@ -734,9 +734,9 @@
    "name": "GBP/JPY",
    "type": "forex",
    "sub": "",
-   "price": 211.9,
-   "chg1d": -0.45,
-   "chg5d": 0.75,
+   "price": 211.99,
+   "chg1d": -0.67,
+   "chg5d": 0.42,
    "composite": 10.0,
    "bias": "Neutral",
    "confidence": 33,
@@ -762,7 +762,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: GBP 3.73% vs JPY 0.30% (+3.43 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +7bp in about 3 months. Rate data is up to 1070 days old."
+     "detail": "Short rates: GBP 3.73% vs JPY 0.30% (+3.43 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +7bp in about 3 months. Rate data is up to 1071 days old."
     },
     {
      "key": "trend",
@@ -770,7 +770,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +1.5%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +1.4%."
     }
    ],
    "expected": -5.0,
@@ -781,9 +781,9 @@
    "name": "EUR/GBP",
    "type": "forex",
    "sub": "",
-   "price": 0.83391,
-   "chg1d": -0.03,
-   "chg5d": -0.36,
+   "price": 0.83439,
+   "chg1d": 0.09,
+   "chg5d": -0.17,
    "composite": -60.0,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -818,7 +818,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.5%."
     }
    ],
    "expected": -56.6,
@@ -829,9 +829,9 @@
    "name": "Gold",
    "type": "commodity",
    "sub": "precious",
-   "price": 4097.1,
-   "chg1d": 0.59,
-   "chg5d": 1.63,
+   "price": 4094.0,
+   "chg1d": 0.52,
+   "chg5d": 1.55,
    "composite": 2.4,
    "bias": "Neutral",
    "confidence": 22,
@@ -915,7 +915,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.5%."
     }
    ],
    "expected": 10.8,
@@ -926,9 +926,9 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 51.74,
-   "chg1d": -0.73,
-   "chg5d": -0.86,
+   "price": 51.665,
+   "chg1d": -0.87,
+   "chg5d": -1.01,
    "composite": -4.8,
    "bias": "Neutral",
    "confidence": 56,
@@ -1012,7 +1012,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.5%."
     }
    ],
    "expected": -0.0,
@@ -1023,9 +1023,9 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1517.5,
-   "chg1d": 1.09,
-   "chg5d": 1.52,
+   "price": 1509.7,
+   "chg1d": 0.57,
+   "chg5d": 1.0,
    "composite": 2.4,
    "bias": "Neutral",
    "confidence": 22,
@@ -1109,7 +1109,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.7%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.1%."
     }
    ],
    "expected": 10.8,
@@ -1120,9 +1120,9 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 6.2215,
-   "chg1d": -2.83,
-   "chg5d": -5.46,
+   "price": 6.2305,
+   "chg1d": -2.69,
+   "chg5d": -5.33,
    "composite": -24.2,
    "bias": "Bearish",
    "confidence": 50,
@@ -1214,7 +1214,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.6%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.4%."
     }
    ],
    "expected": -30.0,
@@ -1225,9 +1225,9 @@
    "name": "WTI crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 91.18,
-   "chg1d": 3.47,
-   "chg5d": -10.61,
+   "price": 91.32,
+   "chg1d": 3.63,
+   "chg5d": -10.47,
    "composite": -24.0,
    "bias": "Bearish",
    "confidence": 50,
@@ -1302,7 +1302,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.3%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.2%."
     }
    ],
    "expected": -37.5,
@@ -1313,9 +1313,9 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 99.2,
-   "chg1d": 4.84,
-   "chg5d": -13.65,
+   "price": 99.28,
+   "chg1d": 4.92,
+   "chg5d": -13.58,
    "composite": -24.0,
    "bias": "Bearish",
    "confidence": 50,
@@ -1390,7 +1390,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.9%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.8%."
     }
    ],
    "expected": -37.5,
@@ -1401,9 +1401,9 @@
    "name": "Natural gas",
    "type": "commodity",
    "sub": "energy",
-   "price": 2.958,
-   "chg1d": -0.03,
-   "chg5d": 0.2,
+   "price": 2.946,
+   "chg1d": -0.44,
+   "chg5d": -0.2,
    "composite": -33.4,
    "bias": "Bearish",
    "confidence": 62,
@@ -1478,7 +1478,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.0%."
     }
    ],
    "expected": -37.6,
@@ -1643,7 +1643,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.6%."
     }
    ],
-   "expected": -92.9,
+   "expected": -100,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1651,9 +1651,9 @@
    "name": "Nasdaq 100 futures",
    "type": "index",
    "sub": "growth",
-   "price": 26626.25,
-   "chg1d": -6.79,
-   "chg5d": -9.93,
+   "price": 26567.5,
+   "chg1d": -7.0,
+   "chg5d": -10.13,
    "composite": -16.1,
    "bias": "Bearish",
    "confidence": 60,
@@ -1745,7 +1745,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.2%."
     }
    ],
    "expected": -25.0,
@@ -1756,9 +1756,9 @@
    "name": "S&P 500 futures",
    "type": "index",
    "sub": "broad",
-   "price": 7351.5,
-   "chg1d": -4.78,
-   "chg5d": -5.19,
+   "price": 7342.75,
+   "chg1d": -4.89,
+   "chg5d": -5.31,
    "composite": -20.7,
    "bias": "Bearish",
    "confidence": 60,
@@ -1850,10 +1850,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.9%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.1%."
     }
    ],
-   "expected": -31.9,
+   "expected": -29.4,
    "expected_bias": "Bearish"
   },
   {
@@ -1861,9 +1861,9 @@
    "name": "Dow Jones futures",
    "type": "index",
    "sub": "value",
-   "price": 51391.0,
-   "chg1d": -3.95,
-   "chg5d": -2.13,
+   "price": 51307.0,
+   "chg1d": -4.1,
+   "chg5d": -2.29,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -1955,7 +1955,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.2%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -0.4%."
     }
    ],
    "expected": -16.8,
@@ -1966,9 +1966,9 @@
    "name": "Russell 2000 futures",
    "type": "index",
    "sub": "small",
-   "price": 2723.9,
-   "chg1d": -4.95,
-   "chg5d": -5.0,
+   "price": 2720.7,
+   "chg1d": -5.07,
+   "chg5d": -5.11,
    "composite": -9.5,
    "bias": "Neutral",
    "confidence": 60,
@@ -2060,7 +2060,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.2%."
     }
    ],
    "expected": -15.9,
@@ -2071,9 +2071,9 @@
    "name": "10-year T-note futures",
    "type": "bond",
    "sub": "",
-   "price": 107.3,
-   "chg1d": 0.38,
-   "chg5d": 1.04,
+   "price": 107.36,
+   "chg1d": 0.44,
+   "chg5d": 1.1,
    "composite": 27.6,
    "bias": "Bullish",
    "confidence": 50,
@@ -2160,9 +2160,9 @@
    "name": "30-year T-bond futures",
    "type": "bond",
    "sub": "",
-   "price": 108.5,
-   "chg1d": 0.29,
-   "chg5d": 1.14,
+   "price": 108.69,
+   "chg1d": 0.46,
+   "chg5d": 1.31,
    "composite": 27.6,
    "bias": "Bullish",
    "confidence": 50,
@@ -2238,7 +2238,7 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +5.3%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +5.5%."
     }
    ],
    "expected": 31.4,
@@ -2249,16 +2249,16 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 75444.79,
-   "chg1d": -6.17,
-   "chg5d": -2.57,
-   "composite": -19.1,
+   "price": 76058.41,
+   "chg1d": -5.41,
+   "chg5d": -1.78,
+   "composite": -13.7,
    "bias": "Bearish",
    "confidence": 55,
    "coverage": "11/11 factors live",
    "supports": [
     "Treasury and real yields",
-    "Credit spreads (high-yield)"
+    "Crypto sentiment"
    ],
    "headwinds": [
     "Risk appetite",
@@ -2316,10 +2316,10 @@
     {
      "key": "sent",
      "name": "Crypto sentiment",
-     "score": 0,
+     "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "liquidity",
@@ -2351,10 +2351,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.7%."
     }
    ],
-   "expected": -26.9,
+   "expected": -21.4,
    "expected_bias": "Bearish"
   },
   {
@@ -2362,16 +2362,16 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2216.7,
-   "chg1d": -8.49,
-   "chg5d": -1.6,
-   "composite": -26.9,
+   "price": 2237.48,
+   "chg1d": -7.63,
+   "chg5d": -0.68,
+   "composite": -17.2,
    "bias": "Bearish",
-   "confidence": 58,
+   "confidence": 50,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
-    "Credit spreads (high-yield)"
+    "Crypto sentiment"
    ],
    "headwinds": [
     "Bitcoin lead",
@@ -2429,10 +2429,10 @@
     {
      "key": "sent",
      "name": "Crypto sentiment",
-     "score": 0,
+     "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2469,13 +2469,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -8.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.5%."
     }
    ],
-   "expected": -33.9,
+   "expected": -19.3,
    "expected_bias": "Bearish"
   },
   {
@@ -2483,137 +2483,16 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 88.67,
-   "chg1d": -7.14,
-   "chg5d": -7.0,
-   "composite": -31.7,
+   "price": 89.59,
+   "chg1d": -6.18,
+   "chg5d": -6.04,
+   "composite": -22.0,
    "bias": "Bearish",
    "confidence": 58,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
-    "Credit spreads (high-yield)"
-   ],
-   "headwinds": [
-    "Price trend and momentum",
-    "Bitcoin lead"
-   ],
-   "factors": [
-    {
-     "key": "policy",
-     "name": "Fed policy and rate expectations",
-     "score": 0.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.58% (+70bp). Market is pricing hikes. 2y moved -21bp in 1 month."
-    },
-    {
-     "key": "yields",
-     "name": "Treasury and real yields",
-     "score": 2.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "10y real yield 2.64% (-27bp in 1m), 10y nominal 4.90% (-37bp). Falling real yields support gold and BTC."
-    },
-    {
-     "key": "macro",
-     "name": "Inflation and jobs data",
-     "score": -1.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
-    },
-    {
-     "key": "usd",
-     "name": "US dollar trend",
-     "score": -1,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "DXY 101.57, above its 50-day average, -0.6% in 1 month. Positive means a weaker dollar."
-    },
-    {
-     "key": "risk",
-     "name": "Risk appetite",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "VIX 28.2, S&P 500 -5.9% from its 3-month high. Positive means risk-on."
-    },
-    {
-     "key": "growth",
-     "name": "Global growth (stocks, China, copper)",
-     "score": -0.67,
-     "weight": 0.5,
-     "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks +2, copper -2. Positive means stronger global growth."
-    },
-    {
-     "key": "sent",
-     "name": "Crypto sentiment",
-     "score": 0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative."
-    },
-    {
-     "key": "btc",
-     "name": "Bitcoin lead",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
-    },
-    {
-     "key": "liquidity",
-     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-     "score": -1,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "Fed net liquidity about 5,791 bn, -0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
-    },
-    {
-     "key": "credit",
-     "name": "Credit spreads (high-yield)",
-     "score": 1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "High-yield spread 3.32 points, +0.20 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
-    },
-    {
-     "key": "fci",
-     "name": "Financial conditions (Chicago Fed index)",
-     "score": 0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "Chicago Fed index -0.46, +0.08 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
-    },
-    {
-     "key": "trend",
-     "name": "Price trend and momentum",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -15.0%."
-    }
-   ],
-   "expected": -41.1,
-   "expected_bias": "Strong bearish"
-  },
-  {
-   "symbol": "XRP-USD",
-   "name": "XRP",
-   "type": "crypto",
-   "sub": "",
-   "price": 1.2004,
-   "chg1d": -7.99,
-   "chg5d": -3.98,
-   "composite": -26.9,
-   "bias": "Bearish",
-   "confidence": 58,
-   "coverage": "12/12 factors live",
-   "supports": [
-    "Treasury and real yields",
-    "Credit spreads (high-yield)"
+    "Crypto sentiment"
    ],
    "headwinds": [
     "Bitcoin lead",
@@ -2671,10 +2550,10 @@
     {
      "key": "sent",
      "name": "Crypto sentiment",
-     "score": 0,
+     "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2714,10 +2593,131 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.1%."
     }
    ],
-   "expected": -31.5,
+   "expected": -26.6,
+   "expected_bias": "Bearish"
+  },
+  {
+   "symbol": "XRP-USD",
+   "name": "XRP",
+   "type": "crypto",
+   "sub": "",
+   "price": 1.2098,
+   "chg1d": -7.27,
+   "chg5d": -3.22,
+   "composite": -22.0,
+   "bias": "Bearish",
+   "confidence": 58,
+   "coverage": "12/12 factors live",
+   "supports": [
+    "Treasury and real yields",
+    "Crypto sentiment"
+   ],
+   "headwinds": [
+    "Bitcoin lead",
+    "Risk appetite"
+   ],
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Fed policy and rate expectations",
+     "score": 0.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.58% (+70bp). Market is pricing hikes. 2y moved -21bp in 1 month."
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": 2.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "10y real yield 2.64% (-27bp in 1m), 10y nominal 4.90% (-37bp). Falling real yields support gold and BTC."
+    },
+    {
+     "key": "macro",
+     "name": "Inflation and jobs data",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "CPI 4.0% y/y (+0.30pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +51k; unemployment 4.2% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+    },
+    {
+     "key": "usd",
+     "name": "US dollar trend",
+     "score": -1,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "DXY 101.57, above its 50-day average, -0.6% in 1 month. Positive means a weaker dollar."
+    },
+    {
+     "key": "risk",
+     "name": "Risk appetite",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "VIX 28.2, S&P 500 -5.9% from its 3-month high. Positive means risk-on."
+    },
+    {
+     "key": "growth",
+     "name": "Global growth (stocks, China, copper)",
+     "score": -0.67,
+     "weight": 0.5,
+     "ok": true,
+     "detail": "Trend scores: US stocks -2, China stocks +2, copper -2. Positive means stronger global growth."
+    },
+    {
+     "key": "sent",
+     "name": "Crypto sentiment",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+    },
+    {
+     "key": "btc",
+     "name": "Bitcoin lead",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
+    },
+    {
+     "key": "liquidity",
+     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
+     "score": -1,
+     "weight": 2.0,
+     "ok": true,
+     "detail": "Fed net liquidity about 5,791 bn, -0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
+    },
+    {
+     "key": "credit",
+     "name": "Credit spreads (high-yield)",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "High-yield spread 3.32 points, +0.20 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
+    },
+    {
+     "key": "fci",
+     "name": "Financial conditions (Chicago Fed index)",
+     "score": 0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "Chicago Fed index -0.46, +0.08 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
+    },
+    {
+     "key": "trend",
+     "name": "Price trend and momentum",
+     "score": -1.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.7%."
+    }
+   ],
+   "expected": -26.6,
    "expected_bias": "Bearish"
   },
   {
@@ -2725,16 +2725,16 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 685.0,
-   "chg1d": -4.8,
-   "chg5d": -2.51,
-   "composite": -22.0,
+   "price": 690.12,
+   "chg1d": -4.09,
+   "chg5d": -1.78,
+   "composite": -17.2,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "12/12 factors live",
    "supports": [
     "Treasury and real yields",
-    "Credit spreads (high-yield)"
+    "Crypto sentiment"
    ],
    "headwinds": [
     "Bitcoin lead",
@@ -2792,10 +2792,10 @@
     {
      "key": "sent",
      "name": "Crypto sentiment",
-     "score": 0,
+     "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2835,10 +2835,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -5.0%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.3%."
     }
    ],
-   "expected": -28.9,
+   "expected": -21.8,
    "expected_bias": "Bearish"
   }
  ],
@@ -2888,8 +2888,8 @@
   {
    "key": "sent",
    "name": "Crypto sentiment",
-   "score": 0,
-   "detail": "Crypto Fear and Greed 50. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
+   "score": 1,
+   "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
    "ok": true
   },
   {
@@ -3442,6 +3442,40 @@
    "SOL-USD": -31.7,
    "XRP-USD": -26.9,
    "BNB-USD": -22.0
+  },
+  {
+   "date": "2026-11-06",
+   "EURUSD=X": -19.5,
+   "GBPUSD=X": 9.5,
+   "USDJPY=X": 10.0,
+   "AUDUSD=X": -17.4,
+   "NZDUSD=X": -15.9,
+   "USDCAD=X": -9.8,
+   "USDCHF=X": 12.5,
+   "EURJPY=X": 0.0,
+   "GBPJPY=X": 10.0,
+   "EURGBP=X": -60.0,
+   "GC=F": 2.4,
+   "SI=F": -4.8,
+   "PL=F": 2.4,
+   "HG=F": -24.2,
+   "CL=F": -24.0,
+   "BZ=F": -24.0,
+   "NG=F": -33.4,
+   "ZW=F": -76.2,
+   "ZC=F": -76.2,
+   "ZS=F": -76.2,
+   "NQ=F": -16.1,
+   "ES=F": -20.7,
+   "YM=F": -12.4,
+   "RTY=F": -9.5,
+   "ZN=F": 27.6,
+   "ZB=F": 27.6,
+   "BTC-USD": -13.7,
+   "ETH-USD": -17.2,
+   "SOL-USD": -22.0,
+   "XRP-USD": -22.0,
+   "BNB-USD": -17.2
   }
  ]
 }
