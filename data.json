@@ -1,18 +1,18 @@
 {
- "generated_utc": "2026-11-06 07:56",
+ "generated_utc": "2026-11-06 08:51",
  "demo": false,
  "market": {
-  "gold": 4054.1,
-  "dxy": 101.95,
-  "btc": 75536.0,
+  "gold": 4079.7,
+  "dxy": 101.88,
+  "btc": 75592.0,
   "us10y": 4.9,
   "real10y": 2.64
  },
  "assets": {
   "gold": {
-   "composite": 16.7,
-   "bias": "Bullish",
-   "expected": 23.6,
+   "composite": 11.1,
+   "bias": "Neutral",
+   "expected": 15.2,
    "expected_bias": "Bullish",
    "confidence": 43,
    "factors": [
@@ -46,15 +46,15 @@
      "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 101.95, above its 50d average (101.09), -0.3% in 1m. 60d correlation with gold: -0.44."
+     "detail": "DXY 101.88, above its 50d average (101.08), -0.3% in 1m. 60d correlation with gold: -0.44."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 2.0,
+     "score": 1,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 28.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 27.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -84,9 +84,9 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -25.0,
+   "composite": -16.7,
    "bias": "Bearish",
-   "expected": -33.4,
+   "expected": -20.9,
    "expected_bias": "Bearish",
    "confidence": 57,
    "factors": [
@@ -120,15 +120,15 @@
      "score": -1,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 101.95, above its 50d average (101.09), -0.3% in 1m. 60d correlation with gold: -0.44."
+     "detail": "DXY 101.88, above its 50d average (101.08), -0.3% in 1m. 60d correlation with gold: -0.44."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": -2.0,
+     "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 27.2, S&P 500 -5.9% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -151,8 +151,8 @@
     "Treasury and real yields"
    ],
    "headwinds": [
-    "Geopolitical risk and safe haven",
-    "Central banks, ETFs, physical demand"
+    "Central banks, ETFs, physical demand",
+    "Geopolitical risk and safe haven"
    ],
    "coverage": "7/7 factors live"
   }
@@ -271,8 +271,8 @@
   },
   {
    "date": "2026-11-06",
-   "gold": 16.7,
-   "btc": -25.0
+   "gold": 11.1,
+   "btc": -16.7
   }
  ]
 }
