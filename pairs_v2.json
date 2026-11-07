@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-07 00:02",
+ "generated_utc": "2026-11-07 00:50",
  "demo": false,
  "instruments": [
   {
@@ -298,11 +298,11 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.69311,
-   "chg1d": -1.05,
-   "chg5d": -1.36,
-   "composite": -9.8,
-   "bias": "Neutral",
+   "price": 0.68681,
+   "chg1d": -0.91,
+   "chg5d": -2.29,
+   "composite": -16.5,
+   "bias": "Bearish",
    "confidence": 56,
    "coverage": "9/9 factors live",
    "supports": [
@@ -310,8 +310,8 @@
     "Interest-rate differential"
    ],
    "headwinds": [
-    "US dollar trend",
-    "Risk appetite"
+    "Price trend and momentum",
+    "US dollar trend"
    ],
    "factors": [
     {
@@ -381,23 +381,23 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.7%."
     }
    ],
-   "expected": -9.8,
-   "expected_bias": "Neutral"
+   "expected": -19.9,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "NZDUSD=X",
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.55956,
-   "chg1d": -0.51,
-   "chg5d": -0.65,
+   "price": 0.55475,
+   "chg1d": -0.86,
+   "chg5d": -1.38,
    "composite": -9.1,
    "bias": "Neutral",
    "confidence": 56,
@@ -481,7 +481,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.2%."
     }
    ],
    "expected": -9.1,
@@ -492,16 +492,16 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.40172,
-   "chg1d": 0.32,
-   "chg5d": 0.22,
-   "composite": -15.4,
-   "bias": "Bearish",
-   "confidence": 44,
+   "price": 1.4128,
+   "chg1d": 0.79,
+   "chg5d": 1.13,
+   "composite": -1.4,
+   "bias": "Neutral",
+   "confidence": 33,
    "coverage": "9/9 factors live",
    "supports": [
     "US dollar trend",
-    "Risk appetite"
+    "Price trend and momentum"
    ],
    "headwinds": [
     "Interest-rate differential",
@@ -575,14 +575,14 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.5%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move -0.9%."
     }
    ],
-   "expected": -15.4,
-   "expected_bias": "Bearish"
+   "expected": 5.6,
+   "expected_bias": "Neutral"
   },
   {
    "symbol": "USDCHF=X",
@@ -2249,7 +2249,7 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 75786.38,
+   "price": 75780.54,
    "chg1d": -0.21,
    "chg5d": -3.15,
    "composite": -8.3,
@@ -2362,9 +2362,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2236.33,
-   "chg1d": 0.08,
-   "chg5d": -1.62,
+   "price": 2237.21,
+   "chg1d": 0.12,
+   "chg5d": -1.58,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2483,9 +2483,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 90.02,
-   "chg1d": 0.98,
-   "chg5d": -4.69,
+   "price": 90.06,
+   "chg1d": 1.03,
+   "chg5d": -4.65,
    "composite": -17.2,
    "bias": "Bearish",
    "confidence": 58,
@@ -2593,7 +2593,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -12.9%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -12.8%."
     }
    ],
    "expected": -14.2,
@@ -2604,9 +2604,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.1786,
-   "chg1d": -2.27,
-   "chg5d": -5.7,
+   "price": 1.1781,
+   "chg1d": -2.31,
+   "chg5d": -5.74,
    "composite": -17.2,
    "bias": "Bearish",
    "confidence": 58,
@@ -2714,7 +2714,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.9%."
     }
    ],
    "expected": -14.2,
@@ -2725,9 +2725,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 692.85,
-   "chg1d": 0.7,
-   "chg5d": -2.67,
+   "price": 693.13,
+   "chg1d": 0.74,
+   "chg5d": -2.63,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2835,7 +2835,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.3%."
     }
    ],
    "expected": -9.4,
@@ -3482,9 +3482,9 @@
    "EURUSD=X": -15.9,
    "GBPUSD=X": 14.3,
    "USDJPY=X": 12.5,
-   "AUDUSD=X": -9.8,
+   "AUDUSD=X": -16.5,
    "NZDUSD=X": -9.1,
-   "USDCAD=X": -15.4,
+   "USDCAD=X": -1.4,
    "USDCHF=X": 15.0,
    "EURJPY=X": 13.2,
    "GBPJPY=X": 25.0,
