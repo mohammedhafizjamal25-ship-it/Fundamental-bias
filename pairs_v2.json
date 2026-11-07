@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-07 11:30",
+ "generated_utc": "2026-11-07 12:41",
  "demo": false,
  "instruments": [
   {
@@ -2249,9 +2249,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 75876.55,
-   "chg1d": 0.17,
-   "chg5d": -1.04,
+   "price": 75738.1,
+   "chg1d": -0.01,
+   "chg5d": -1.22,
    "composite": -8.3,
    "bias": "Neutral",
    "confidence": 55,
@@ -2351,7 +2351,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.5%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.7%."
     }
    ],
    "expected": -5.0,
@@ -2362,9 +2362,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2241.79,
-   "chg1d": 0.3,
-   "chg5d": -0.32,
+   "price": 2238.38,
+   "chg1d": 0.15,
+   "chg5d": -0.47,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2472,7 +2472,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.9%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.1%."
     }
    ],
    "expected": -7.0,
@@ -2483,9 +2483,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 89.81,
-   "chg1d": -0.28,
-   "chg5d": -2.21,
+   "price": 89.72,
+   "chg1d": -0.38,
+   "chg5d": -2.3,
    "composite": -17.2,
    "bias": "Bearish",
    "confidence": 58,
@@ -2593,7 +2593,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -13.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -13.8%."
     }
    ],
    "expected": -14.2,
@@ -2604,10 +2604,10 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.1716,
-   "chg1d": -0.55,
-   "chg5d": -6.11,
-   "composite": -17.2,
+   "price": 1.1586,
+   "chg1d": -1.65,
+   "chg5d": -7.15,
+   "composite": -22.0,
    "bias": "Bearish",
    "confidence": 58,
    "coverage": "12/12 factors live",
@@ -2616,8 +2616,8 @@
     "Crypto sentiment"
    ],
    "headwinds": [
-    "Bitcoin lead",
-    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
+    "Price trend and momentum",
+    "Bitcoin lead"
    ],
    "factors": [
     {
@@ -2711,13 +2711,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -1.0,
+     "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.2%."
     }
    ],
-   "expected": -14.2,
+   "expected": -21.4,
    "expected_bias": "Bearish"
   },
   {
@@ -2725,9 +2725,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 693.73,
-   "chg1d": 0.09,
-   "chg5d": -0.62,
+   "price": 693.06,
+   "chg1d": -0.01,
+   "chg5d": -0.71,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2835,7 +2835,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.9%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.0%."
     }
    ],
    "expected": -9.4,
@@ -3508,7 +3508,7 @@
    "BTC-USD": -8.3,
    "ETH-USD": -12.4,
    "SOL-USD": -17.2,
-   "XRP-USD": -17.2,
+   "XRP-USD": -22.0,
    "BNB-USD": -12.4
   }
  ]
