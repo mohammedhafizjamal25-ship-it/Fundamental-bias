@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-08 08:45",
+ "generated_utc": "2026-11-08 09:40",
  "demo": false,
  "instruments": [
   {
@@ -926,9 +926,9 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 51.803,
-   "chg1d": -0.82,
-   "chg5d": 5.51,
+   "price": 51.942,
+   "chg1d": -0.56,
+   "chg5d": 5.79,
    "composite": -9.5,
    "bias": "Neutral",
    "confidence": 56,
@@ -1012,7 +1012,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.4%."
     }
    ],
    "expected": -9.5,
@@ -1023,9 +1023,9 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1536.9,
-   "chg1d": 0.82,
-   "chg5d": 6.88,
+   "price": 1538.2,
+   "chg1d": 0.91,
+   "chg5d": 6.97,
    "composite": -9.5,
    "bias": "Neutral",
    "confidence": 56,
@@ -1109,7 +1109,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.4%."
     }
    ],
    "expected": -9.5,
@@ -1120,10 +1120,10 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 6.218,
-   "chg1d": -0.5,
-   "chg5d": -3.72,
-   "composite": -31.7,
+   "price": 6.2375,
+   "chg1d": -0.18,
+   "chg5d": -3.42,
+   "composite": -24.2,
    "bias": "Bearish",
    "confidence": 60,
    "coverage": "10/10 factors live",
@@ -1211,13 +1211,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.1%."
     }
    ],
-   "expected": -34.2,
+   "expected": -22.9,
    "expected_bias": "Bearish"
   },
   {
@@ -2249,9 +2249,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 75809.33,
-   "chg1d": 0.08,
-   "chg5d": -1.99,
+   "price": 75845.73,
+   "chg1d": 0.13,
+   "chg5d": -1.94,
    "composite": -8.3,
    "bias": "Neutral",
    "confidence": 55,
@@ -2351,7 +2351,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.3%."
     }
    ],
    "expected": -10.1,
@@ -2362,9 +2362,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2235.22,
-   "chg1d": -0.05,
-   "chg5d": -1.65,
+   "price": 2234.85,
+   "chg1d": -0.07,
+   "chg5d": -1.67,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2483,9 +2483,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 89.14,
-   "chg1d": -0.59,
-   "chg5d": -4.07,
+   "price": 89.2,
+   "chg1d": -0.52,
+   "chg5d": -4.0,
    "composite": -17.2,
    "bias": "Bearish",
    "confidence": 58,
@@ -2604,9 +2604,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.1625,
-   "chg1d": 0.04,
-   "chg5d": -8.99,
+   "price": 1.1624,
+   "chg1d": 0.03,
+   "chg5d": -9.0,
    "composite": -22.0,
    "bias": "Bearish",
    "confidence": 58,
@@ -2725,9 +2725,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 697.95,
-   "chg1d": 0.39,
-   "chg5d": -0.08,
+   "price": 697.66,
+   "chg1d": 0.35,
+   "chg5d": -0.12,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2835,7 +2835,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.5%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -4.6%."
     }
    ],
    "expected": -11.6,
@@ -3526,7 +3526,7 @@
    "GC=F": -2.4,
    "SI=F": -9.5,
    "PL=F": -9.5,
-   "HG=F": -31.7,
+   "HG=F": -24.2,
    "CL=F": -17.8,
    "BZ=F": -17.8,
    "NG=F": -17.8,
