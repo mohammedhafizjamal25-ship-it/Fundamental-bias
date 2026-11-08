@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-07 23:30",
+ "generated_utc": "2026-11-08 00:50",
  "demo": false,
  "instruments": [
   {
@@ -279,7 +279,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved -19bp in about 3 months. Rate data is up to 1072 days old."
+     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved -19bp in about 3 months. Rate data is up to 1073 days old."
     },
     {
      "key": "trend",
@@ -290,8 +290,8 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move +0.1%."
     }
    ],
-   "expected": 12.5,
-   "expected_bias": "Bullish"
+   "expected": 3.8,
+   "expected_bias": "Neutral"
   },
   {
    "symbol": "AUDUSD=X",
@@ -376,7 +376,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: AUD 4.35% vs USD 3.88% (+0.47 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved +26bp in about 3 months. Rate data is up to 67 days old."
+     "detail": "Short rates: AUD 4.35% vs USD 3.88% (+0.47 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved +26bp in about 3 months. Rate data is up to 68 days old."
     },
     {
      "key": "trend",
@@ -473,7 +473,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved +29bp in about 3 months. Rate data is up to 706 days old."
+     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved +29bp in about 3 months. Rate data is up to 707 days old."
     },
     {
      "key": "trend",
@@ -570,7 +570,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved -27bp in about 3 months. Rate data is up to 1072 days old."
+     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved -27bp in about 3 months. Rate data is up to 1073 days old."
     },
     {
      "key": "trend",
@@ -667,7 +667,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CHF 1.34% (+2.54 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved -9bp in about 3 months. Rate data is up to 981 days old."
+     "detail": "Short rates: USD 3.88% vs CHF 1.34% (+2.54 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved -9bp in about 3 months. Rate data is up to 982 days old."
     },
     {
      "key": "trend",
@@ -715,7 +715,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +13bp in about 3 months. Rate data is up to 1072 days old."
+     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +13bp in about 3 months. Rate data is up to 1073 days old."
     },
     {
      "key": "trend",
@@ -762,7 +762,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: GBP 3.73% vs JPY 0.30% (+3.43 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +7bp in about 3 months. Rate data is up to 1072 days old."
+     "detail": "Short rates: GBP 3.73% vs JPY 0.30% (+3.43 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +7bp in about 3 months. Rate data is up to 1073 days old."
     },
     {
      "key": "trend",
@@ -773,7 +773,7 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move +1.0%."
     }
    ],
-   "expected": 25.0,
+   "expected": 17.5,
    "expected_bias": "Bullish"
   },
   {
@@ -1217,8 +1217,8 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.4%."
     }
    ],
-   "expected": -35.9,
-   "expected_bias": "Strong bearish"
+   "expected": -34.2,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "CL=F",
@@ -1305,7 +1305,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.1%."
     }
    ],
-   "expected": -18.4,
+   "expected": -16.2,
    "expected_bias": "Bearish"
   },
   {
@@ -1393,7 +1393,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -6.1%."
     }
    ],
-   "expected": -18.4,
+   "expected": -16.2,
    "expected_bias": "Bearish"
   },
   {
@@ -1481,7 +1481,7 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move -6.9%."
     }
    ],
-   "expected": -9.0,
+   "expected": -6.9,
    "expected_bias": "Neutral"
   },
   {
@@ -1535,7 +1535,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.9%."
     }
    ],
-   "expected": -66.8,
+   "expected": -65.5,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1589,7 +1589,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.0%."
     }
    ],
-   "expected": -66.8,
+   "expected": -65.5,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1643,7 +1643,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -8.0%."
     }
    ],
-   "expected": -77.4,
+   "expected": -76.2,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1748,7 +1748,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.9%."
     }
    ],
-   "expected": -10.6,
+   "expected": -10.0,
    "expected_bias": "Neutral"
   },
   {
@@ -1853,7 +1853,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -5.8%."
     }
    ],
-   "expected": -6.8,
+   "expected": -6.0,
    "expected_bias": "Neutral"
   },
   {
@@ -1958,7 +1958,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -1.0%."
     }
    ],
-   "expected": -4.3,
+   "expected": -3.1,
    "expected_bias": "Neutral"
   },
   {
@@ -2063,7 +2063,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.2%."
     }
    ],
-   "expected": -4.8,
+   "expected": -3.7,
    "expected_bias": "Neutral"
   },
   {
@@ -2152,7 +2152,7 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move +2.4%."
     }
    ],
-   "expected": 22.4,
+   "expected": 21.9,
    "expected_bias": "Bullish"
   },
   {
@@ -2241,7 +2241,7 @@
      "detail": "Price is above its 50-day and below its 200-day average; 20-day move +5.2%."
     }
    ],
-   "expected": 22.4,
+   "expected": 21.9,
    "expected_bias": "Bullish"
   },
   {
@@ -2249,9 +2249,9 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 75678.64,
-   "chg1d": -0.09,
-   "chg5d": -1.3,
+   "price": 75657.83,
+   "chg1d": -0.12,
+   "chg5d": -1.33,
    "composite": -8.3,
    "bias": "Neutral",
    "confidence": 55,
@@ -2319,7 +2319,7 @@
      "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "liquidity",
@@ -2351,10 +2351,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.8%."
     }
    ],
-   "expected": -5.0,
+   "expected": -10.1,
    "expected_bias": "Neutral"
   },
   {
@@ -2362,9 +2362,9 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 2231.58,
-   "chg1d": -0.16,
-   "chg5d": -0.77,
+   "price": 2232.68,
+   "chg1d": -0.11,
+   "chg5d": -0.72,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2432,7 +2432,7 @@
      "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2472,10 +2472,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.4%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -7.3%."
     }
    ],
-   "expected": -7.0,
+   "expected": -11.6,
    "expected_bias": "Neutral"
   },
   {
@@ -2483,9 +2483,9 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 89.36,
-   "chg1d": -0.78,
-   "chg5d": -2.7,
+   "price": 89.31,
+   "chg1d": -0.83,
+   "chg5d": -2.75,
    "composite": -17.2,
    "bias": "Bearish",
    "confidence": 58,
@@ -2553,7 +2553,7 @@
      "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2596,7 +2596,7 @@
      "detail": "Price is below its 50-day and above its 200-day average; 20-day move -14.1%."
     }
    ],
-   "expected": -14.2,
+   "expected": -16.4,
    "expected_bias": "Bearish"
   },
   {
@@ -2604,9 +2604,9 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 1.1595,
-   "chg1d": -1.58,
-   "chg5d": -7.08,
+   "price": 1.1602,
+   "chg1d": -1.52,
+   "chg5d": -7.02,
    "composite": -22.0,
    "bias": "Bearish",
    "confidence": 58,
@@ -2674,7 +2674,7 @@
      "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2717,7 +2717,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.1%."
     }
    ],
-   "expected": -21.4,
+   "expected": -26.0,
    "expected_bias": "Bearish"
   },
   {
@@ -2725,9 +2725,9 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 694.34,
-   "chg1d": 0.18,
-   "chg5d": -0.53,
+   "price": 695.18,
+   "chg1d": 0.3,
+   "chg5d": -0.41,
    "composite": -12.4,
    "bias": "Bearish",
    "confidence": 50,
@@ -2795,7 +2795,7 @@
      "score": 1,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2835,10 +2835,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.9%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.7%."
     }
    ],
-   "expected": -9.4,
+   "expected": -11.6,
    "expected_bias": "Neutral"
   }
  ],
@@ -2889,7 +2889,7 @@
    "key": "sent",
    "name": "Crypto sentiment",
    "score": 1,
-   "detail": "Crypto Fear and Greed 25. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
+   "detail": "Crypto Fear and Greed 28. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
    "ok": true
   },
   {
@@ -3479,6 +3479,40 @@
   },
   {
    "date": "2026-11-07",
+   "EURUSD=X": -15.9,
+   "GBPUSD=X": 14.3,
+   "USDJPY=X": 12.5,
+   "AUDUSD=X": -16.5,
+   "NZDUSD=X": -9.1,
+   "USDCAD=X": -1.4,
+   "USDCHF=X": 15.0,
+   "EURJPY=X": 13.2,
+   "GBPJPY=X": 25.0,
+   "EURGBP=X": -63.3,
+   "GC=F": -2.4,
+   "SI=F": -9.5,
+   "PL=F": -9.5,
+   "HG=F": -31.7,
+   "CL=F": -17.8,
+   "BZ=F": -17.8,
+   "NG=F": -17.8,
+   "ZW=F": -69.1,
+   "ZC=F": -69.1,
+   "ZS=F": -69.1,
+   "NQ=F": -9.2,
+   "ES=F": -8.6,
+   "YM=F": -6.8,
+   "RTY=F": -4.5,
+   "ZN=F": 23.3,
+   "ZB=F": 23.3,
+   "BTC-USD": -8.3,
+   "ETH-USD": -12.4,
+   "SOL-USD": -17.2,
+   "XRP-USD": -22.0,
+   "BNB-USD": -12.4
+  },
+  {
+   "date": "2026-11-08",
    "EURUSD=X": -15.9,
    "GBPUSD=X": 14.3,
    "USDJPY=X": 12.5,
