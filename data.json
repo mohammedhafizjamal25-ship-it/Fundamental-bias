@@ -1,18 +1,18 @@
 {
- "generated_utc": "2026-11-16 05:02",
+ "generated_utc": "2026-11-16 13:38",
  "demo": false,
  "market": {
-  "gold": 3886.3,
-  "dxy": 103.41,
-  "btc": 64643.0,
+  "gold": 3873.2,
+  "dxy": 103.48,
+  "btc": 64246.0,
   "us10y": 5.1,
   "real10y": 2.86
  },
  "assets": {
   "gold": {
-   "composite": -38.9,
-   "bias": "Strong bearish",
-   "expected": -61.1,
+   "composite": -33.3,
+   "bias": "Bearish",
+   "expected": -52.8,
    "expected_bias": "Strong bearish",
    "confidence": 57,
    "factors": [
@@ -46,15 +46,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.41, above its 50d average (101.41), +1.5% in 1m. 60d correlation with gold: -0.41."
+     "detail": "DXY 103.48, above its 50d average (101.50), +1.5% in 1m. 60d correlation with gold: -0.41."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 0,
+     "score": 1,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 19.3, S&P 500 -3.3% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 20.7, S&P 500 -3.3% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -73,7 +73,9 @@
      "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 22th percentile (3y). BTC: BTC below its 50d/200d averages, crypto Fear & Greed 10. Crowded positioning is treated as a contrarian warning."
     }
    ],
-   "supports": [],
+   "supports": [
+    "Geopolitical risk and safe haven"
+   ],
    "headwinds": [
     "US dollar (DXY)",
     "Rates and Fed policy"
@@ -81,11 +83,11 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -36.1,
+   "composite": -44.4,
    "bias": "Strong bearish",
-   "expected": -50.0,
+   "expected": -62.4,
    "expected_bias": "Strong bearish",
-   "confidence": 57,
+   "confidence": 71,
    "factors": [
     {
      "key": "policy",
@@ -117,15 +119,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.41, above its 50d average (101.41), +1.5% in 1m. 60d correlation with gold: -0.41."
+     "detail": "DXY 103.48, above its 50d average (101.50), +1.5% in 1m. 60d correlation with gold: -0.41."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 0,
+     "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 19.3, S&P 500 -3.3% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 20.7, S&P 500 -3.3% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -296,8 +298,8 @@
   },
   {
    "date": "2026-11-16",
-   "gold": -38.9,
-   "btc": -36.1
+   "gold": -33.3,
+   "btc": -44.4
   }
  ]
 }
