@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18 20:54",
+ "generated_utc": "2026-11-19 02:17",
  "demo": false,
  "instruments": [
   {
@@ -7,10 +7,10 @@
    "name": "EUR/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.09794,
-   "chg1d": -0.17,
-   "chg5d": -1.7,
-   "composite": -58.9,
+   "price": 1.09709,
+   "chg1d": -0.2,
+   "chg5d": -1.12,
+   "composite": -54.0,
    "bias": "Strong bearish",
    "confidence": 78,
    "coverage": "9/9 factors live",
@@ -29,15 +29,15 @@
      "score": -1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -53,7 +53,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -85,7 +85,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: EUR 2.50% vs USD 3.88% (-1.38 pts). Higher carry favours the first currency. The 10-year spread (EUR minus USD) moved -6bp in about 3 months."
+     "detail": "Short rates: EUR 2.50% vs USD 3.88% (-1.38 pts). Higher carry favours the first currency. The 10-year spread (EUR minus USD) moved -10bp in about 3 months."
     },
     {
      "key": "trend",
@@ -93,10 +93,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.3%."
     }
    ],
-   "expected": -74.2,
+   "expected": -58.2,
    "expected_bias": "Strong bearish"
   },
   {
@@ -104,10 +104,10 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.31506,
-   "chg1d": -0.26,
-   "chg5d": -1.48,
-   "composite": -49.2,
+   "price": 1.31366,
+   "chg1d": -0.52,
+   "chg5d": -1.05,
+   "composite": -44.4,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -126,15 +126,15 @@
      "score": -1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -150,7 +150,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -182,7 +182,7 @@
      "score": 0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: GBP 3.98% vs USD 3.88% (+0.10 pts). Higher carry favours the first currency. The 10-year spread (GBP minus USD) moved -0bp in about 3 months."
+     "detail": "Short rates: GBP 3.98% vs USD 3.88% (+0.10 pts). Higher carry favours the first currency. The 10-year spread (GBP minus USD) moved -4bp in about 3 months."
     },
     {
      "key": "trend",
@@ -190,10 +190,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.7%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.9%."
     }
    ],
-   "expected": -63.5,
+   "expected": -52.7,
    "expected_bias": "Strong bearish"
   },
   {
@@ -201,10 +201,10 @@
    "name": "USD/JPY",
    "type": "forex",
    "sub": "",
-   "price": 159.3,
-   "chg1d": -0.14,
-   "chg5d": 0.38,
-   "composite": 56.6,
+   "price": 159.4,
+   "chg1d": -0.07,
+   "chg5d": -0.21,
+   "composite": 51.6,
    "bias": "Strong bullish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -223,15 +223,15 @@
      "score": 1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 2.0,
+     "score": 1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. 10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "Inverse effect on this instrument. 10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -247,7 +247,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -279,7 +279,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved +45bp in about 3 months. Rate data is up to 1083 days old."
+     "detail": "Short rates: USD 3.88% vs JPY 0.30% (+3.58 pts). Higher carry favours the first currency. The 10-year spread (USD minus JPY) moved +48bp in about 3 months. Rate data is up to 1084 days old."
     },
     {
      "key": "trend",
@@ -287,10 +287,10 @@
      "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +0.7%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +0.8%."
     }
    ],
-   "expected": 64.1,
+   "expected": 52.9,
    "expected_bias": "Strong bullish"
   },
   {
@@ -298,10 +298,10 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.67177,
-   "chg1d": -0.29,
-   "chg5d": -2.21,
-   "composite": -40.3,
+   "price": 0.66751,
+   "chg1d": -0.96,
+   "chg5d": -2.45,
+   "composite": -35.8,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -320,15 +320,15 @@
      "score": -1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -344,7 +344,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -376,7 +376,7 @@
      "score": 1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: AUD 4.60% vs USD 3.88% (+0.72 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved -6bp in about 3 months."
+     "detail": "Short rates: AUD 4.60% vs USD 3.88% (+0.72 pts). Higher carry favours the first currency. The 10-year spread (AUD minus USD) moved -10bp in about 3 months."
     },
     {
      "key": "trend",
@@ -384,10 +384,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.0%."
     }
    ],
-   "expected": -51.9,
+   "expected": -37.3,
    "expected_bias": "Strong bearish"
   },
   {
@@ -395,10 +395,10 @@
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.54936,
+   "price": 0.54912,
    "chg1d": -0.13,
-   "chg5d": -2.02,
-   "composite": -49.2,
+   "chg5d": -1.3,
+   "composite": -44.7,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -417,15 +417,15 @@
      "score": -1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -441,7 +441,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -473,7 +473,7 @@
      "score": 0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved -1bp in about 3 months. Rate data is up to 717 days old."
+     "detail": "Short rates: NZD 4.33% vs USD 3.88% (+0.45 pts). Higher carry favours the first currency. The 10-year spread (NZD minus USD) moved -5bp in about 3 months. Rate data is up to 718 days old."
     },
     {
      "key": "trend",
@@ -481,10 +481,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.7%."
     }
    ],
-   "expected": -65.1,
+   "expected": -50.4,
    "expected_bias": "Strong bearish"
   },
   {
@@ -492,10 +492,10 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.4322,
-   "chg1d": 0.17,
-   "chg5d": 0.96,
-   "composite": 39.9,
+   "price": 1.434,
+   "chg1d": 0.29,
+   "chg5d": 0.65,
+   "composite": 35.2,
    "bias": "Strong bullish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -514,15 +514,15 @@
      "score": 1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 2.0,
+     "score": 1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. 10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "Inverse effect on this instrument. 10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -538,7 +538,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -570,7 +570,7 @@
      "score": -1,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved +8bp in about 3 months. Rate data is up to 1083 days old."
+     "detail": "Short rates: USD 3.88% vs CAD 5.25% (-1.37 pts). Higher carry favours the first currency. The 10-year spread (USD minus CAD) moved +12bp in about 3 months. Rate data is up to 1084 days old."
     },
     {
      "key": "trend",
@@ -578,10 +578,10 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +1.8%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.1%."
     }
    ],
-   "expected": 59.1,
+   "expected": 40.4,
    "expected_bias": "Strong bullish"
   },
   {
@@ -589,10 +589,10 @@
    "name": "USD/CHF",
    "type": "forex",
    "sub": "",
-   "price": 0.84315,
-   "chg1d": 0.4,
-   "chg5d": 2.21,
-   "composite": 64.1,
+   "price": 0.84326,
+   "chg1d": 0.23,
+   "chg5d": 1.32,
+   "composite": 59.2,
    "bias": "Strong bullish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -611,15 +611,15 @@
      "score": 1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Inverse effect on this instrument. Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": 2.0,
+     "score": 1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. 10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "Inverse effect on this instrument. 10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -635,7 +635,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -667,7 +667,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: USD 3.88% vs CHF -0.33% (+4.21 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved +38bp in about 3 months."
+     "detail": "Short rates: USD 3.88% vs CHF -0.33% (+4.21 pts). Higher carry favours the first currency. The 10-year spread (USD minus CHF) moved +42bp in about 3 months."
     },
     {
      "key": "trend",
@@ -675,10 +675,10 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.1%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.3%."
     }
    ],
-   "expected": 71.6,
+   "expected": 60.5,
    "expected_bias": "Strong bullish"
   },
   {
@@ -686,8 +686,8 @@
    "name": "EUR/JPY",
    "type": "forex",
    "sub": "",
-   "price": 174.86,
-   "chg1d": -0.33,
+   "price": 174.83,
+   "chg1d": -0.29,
    "chg5d": -1.35,
    "composite": -2.6,
    "bias": "Neutral",
@@ -715,7 +715,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +38bp in about 3 months. Rate data is up to 1083 days old."
+     "detail": "Short rates: EUR 2.50% vs JPY 0.30% (+2.20 pts). Higher carry favours the first currency. The 10-year spread (EUR minus JPY) moved +38bp in about 3 months. Rate data is up to 1084 days old."
     },
     {
      "key": "trend",
@@ -734,9 +734,9 @@
    "name": "GBP/JPY",
    "type": "forex",
    "sub": "",
-   "price": 209.48,
-   "chg1d": -0.4,
-   "chg5d": -1.12,
+   "price": 209.38,
+   "chg1d": -0.59,
+   "chg5d": -1.26,
    "composite": 10.0,
    "bias": "Neutral",
    "confidence": 33,
@@ -763,7 +763,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Short rates: GBP 3.98% vs JPY 0.30% (+3.68 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +44bp in about 3 months. Rate data is up to 1083 days old."
+     "detail": "Short rates: GBP 3.98% vs JPY 0.30% (+3.68 pts). Higher carry favours the first currency. The 10-year spread (GBP minus JPY) moved +44bp in about 3 months. Rate data is up to 1084 days old."
     },
     {
      "key": "trend",
@@ -771,7 +771,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.1%."
     }
    ],
    "expected": -5.0,
@@ -782,10 +782,10 @@
    "name": "EUR/GBP",
    "type": "forex",
    "sub": "",
-   "price": 0.83469,
-   "chg1d": 0.07,
-   "chg5d": -0.23,
-   "composite": -63.3,
+   "price": 0.8349,
+   "chg1d": 0.29,
+   "chg5d": -0.09,
+   "composite": -43.3,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "3/3 factors live",
@@ -793,8 +793,8 @@
     "Risk appetite"
    ],
    "headwinds": [
-    "Price trend and momentum",
-    "Interest-rate differential"
+    "Interest-rate differential",
+    "Price trend and momentum"
    ],
    "factors": [
     {
@@ -816,24 +816,24 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.4%."
     }
    ],
-   "expected": -61.6,
-   "expected_bias": "Strong bearish"
+   "expected": -31.6,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "GC=F",
    "name": "Gold",
    "type": "commodity",
    "sub": "precious",
-   "price": 3734.1,
-   "chg1d": -3.37,
-   "chg5d": -6.66,
-   "composite": -54.7,
+   "price": 3746.9,
+   "chg1d": 0.13,
+   "chg5d": -3.56,
+   "composite": -45.2,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -842,8 +842,8 @@
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
    ],
    "headwinds": [
-    "Treasury and real yields",
-    "Price trend and momentum"
+    "Price trend and momentum",
+    "US dollar trend"
    ],
    "factors": [
     {
@@ -852,15 +852,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -876,7 +876,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -916,10 +916,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.7%."
     }
    ],
-   "expected": -69.0,
+   "expected": -47.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -927,10 +927,10 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 45.045,
-   "chg1d": -4.74,
-   "chg5d": -13.18,
-   "composite": -54.7,
+   "price": 45.25,
+   "chg1d": 0.56,
+   "chg5d": -9.45,
+   "composite": -45.2,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -939,8 +939,8 @@
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
    ],
    "headwinds": [
-    "Treasury and real yields",
-    "Price trend and momentum"
+    "Price trend and momentum",
+    "US dollar trend"
    ],
    "factors": [
     {
@@ -949,15 +949,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -973,7 +973,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1013,10 +1013,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.4%."
     }
    ],
-   "expected": -69.0,
+   "expected": -47.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1024,10 +1024,10 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1368.0,
-   "chg1d": -4.08,
-   "chg5d": -11.11,
-   "composite": -54.7,
+   "price": 1367.8,
+   "chg1d": 0.57,
+   "chg5d": -9.9,
+   "composite": -45.2,
    "bias": "Strong bearish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -1036,8 +1036,8 @@
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
    ],
    "headwinds": [
-    "Treasury and real yields",
-    "Price trend and momentum"
+    "Price trend and momentum",
+    "US dollar trend"
    ],
    "factors": [
     {
@@ -1046,15 +1046,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -1070,7 +1070,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1110,10 +1110,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -15.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -12.7%."
     }
    ],
-   "expected": -69.0,
+   "expected": -47.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1121,10 +1121,10 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 5.668,
-   "chg1d": -5.15,
-   "chg5d": -9.67,
-   "composite": -57.5,
+   "price": 5.681,
+   "chg1d": 0.38,
+   "chg5d": -8.11,
+   "composite": -55.0,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -1143,15 +1143,15 @@
      "score": -1.33,
      "weight": 0.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -1167,7 +1167,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1215,10 +1215,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.7%."
     }
    ],
-   "expected": -67.3,
+   "expected": -61.7,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1226,9 +1226,9 @@
    "name": "WTI crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 82.06,
-   "chg1d": -4.59,
-   "chg5d": -5.17,
+   "price": 82.58,
+   "chg1d": -0.82,
+   "chg5d": -6.94,
    "composite": -53.2,
    "bias": "Strong bearish",
    "confidence": 62,
@@ -1248,7 +1248,7 @@
      "score": -1.33,
      "weight": 0.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "usd",
@@ -1256,7 +1256,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1304,7 +1304,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -15.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.0%."
     }
    ],
    "expected": -63.2,
@@ -1315,9 +1315,9 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 88.92,
-   "chg1d": -4.53,
-   "chg5d": -4.14,
+   "price": 89.69,
+   "chg1d": -2.46,
+   "chg5d": -6.4,
    "composite": -53.2,
    "bias": "Strong bearish",
    "confidence": 62,
@@ -1337,7 +1337,7 @@
      "score": -1.33,
      "weight": 0.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "usd",
@@ -1345,7 +1345,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1393,7 +1393,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -18.3%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -20.7%."
     }
    ],
    "expected": -63.2,
@@ -1404,9 +1404,9 @@
    "name": "Natural gas",
    "type": "commodity",
    "sub": "energy",
-   "price": 3.409,
-   "chg1d": 6.27,
-   "chg5d": 6.03,
+   "price": 3.378,
+   "chg1d": 0.18,
+   "chg5d": 1.14,
    "composite": -15.7,
    "bias": "Bearish",
    "confidence": 50,
@@ -1426,7 +1426,7 @@
      "score": -1.33,
      "weight": 0.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "usd",
@@ -1434,7 +1434,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1482,7 +1482,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +22.2%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +20.8%."
     }
    ],
    "expected": -16.3,
@@ -1493,9 +1493,9 @@
    "name": "Wheat",
    "type": "commodity",
    "sub": "agri",
-   "price": 586.75,
-   "chg1d": -1.43,
-   "chg5d": -2.13,
+   "price": 585.0,
+   "chg1d": 2.63,
+   "chg5d": 0.13,
    "composite": -90.5,
    "bias": "Strong bearish",
    "confidence": 100,
@@ -1512,7 +1512,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1536,7 +1536,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.4%."
     }
    ],
    "expected": -95.3,
@@ -1547,9 +1547,9 @@
    "name": "Corn",
    "type": "commodity",
    "sub": "agri",
-   "price": 448.25,
-   "chg1d": 0.34,
-   "chg5d": 0.06,
+   "price": 447.75,
+   "chg1d": 2.81,
+   "chg5d": 1.19,
    "composite": -69.1,
    "bias": "Strong bearish",
    "confidence": 100,
@@ -1566,7 +1566,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1590,7 +1590,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.8%."
     }
    ],
    "expected": -63.2,
@@ -1601,9 +1601,9 @@
    "name": "Soybeans",
    "type": "commodity",
    "sub": "agri",
-   "price": 1216.0,
-   "chg1d": -0.78,
-   "chg5d": -1.06,
+   "price": 1215.25,
+   "chg1d": -0.12,
+   "chg5d": -0.96,
    "composite": -47.6,
    "bias": "Strong bearish",
    "confidence": 75,
@@ -1620,7 +1620,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1644,7 +1644,7 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -2.3%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.0%."
     }
    ],
    "expected": -52.4,
@@ -1655,116 +1655,11 @@
    "name": "Nasdaq 100 futures",
    "type": "index",
    "sub": "growth",
-   "price": 27164.75,
-   "chg1d": 0.33,
-   "chg5d": -4.6,
-   "composite": -38.5,
-   "bias": "Strong bearish",
-   "confidence": 70,
-   "coverage": "10/10 factors live",
-   "supports": [
-    "Credit spreads (high-yield)",
-    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
-   ],
-   "headwinds": [
-    "Treasury and real yields",
-    "Price trend and momentum"
-   ],
-   "factors": [
-    {
-     "key": "policy",
-     "name": "Fed policy and rate expectations",
-     "score": -1.33,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
-    },
-    {
-     "key": "yields",
-     "name": "Treasury and real yields",
-     "score": -2.0,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
-    },
-    {
-     "key": "macro",
-     "name": "Inflation and jobs data",
-     "score": -1.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
-    },
-    {
-     "key": "usd",
-     "name": "US dollar trend",
-     "score": -2.0,
-     "weight": 0.5,
-     "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
-    },
-    {
-     "key": "risk",
-     "name": "Risk appetite",
-     "score": -1,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
-    },
-    {
-     "key": "growth",
-     "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
-    },
-    {
-     "key": "liquidity",
-     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-     "score": 1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
-    },
-    {
-     "key": "credit",
-     "name": "Credit spreads (high-yield)",
-     "score": 1,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
-    },
-    {
-     "key": "fci",
-     "name": "Financial conditions (Chicago Fed index)",
-     "score": 0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
-    },
-    {
-     "key": "trend",
-     "name": "Price trend and momentum",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -9.5%."
-    }
-   ],
-   "expected": -57.2,
-   "expected_bias": "Strong bearish"
-  },
-  {
-   "symbol": "ES=F",
-   "name": "S&P 500 futures",
-   "type": "index",
-   "sub": "broad",
-   "price": 7343.0,
-   "chg1d": -0.22,
-   "chg5d": -3.89,
-   "composite": -37.9,
-   "bias": "Strong bearish",
+   "price": 27435.5,
+   "chg1d": 0.91,
+   "chg5d": -3.34,
+   "composite": -31.6,
+   "bias": "Bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
    "supports": [
@@ -1773,7 +1668,7 @@
    ],
    "headwinds": [
     "Price trend and momentum",
-    "Treasury and real yields"
+    "Risk appetite"
    ],
    "factors": [
     {
@@ -1782,15 +1677,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
-     "weight": 1.5,
+     "score": -1.0,
+     "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -1806,7 +1701,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1820,7 +1715,7 @@
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
      "score": -1.67,
-     "weight": 1.5,
+     "weight": 1.0,
      "ok": true,
      "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
     },
@@ -1857,7 +1752,112 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.9%."
     }
    ],
-   "expected": -56.5,
+   "expected": -41.7,
+   "expected_bias": "Strong bearish"
+  },
+  {
+   "symbol": "ES=F",
+   "name": "S&P 500 futures",
+   "type": "index",
+   "sub": "broad",
+   "price": 7376.0,
+   "chg1d": 0.48,
+   "chg5d": -3.14,
+   "composite": -32.8,
+   "bias": "Bearish",
+   "confidence": 70,
+   "coverage": "10/10 factors live",
+   "supports": [
+    "Credit spreads (high-yield)",
+    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
+   ],
+   "headwinds": [
+    "Price trend and momentum",
+    "Global growth (stocks, China, copper)"
+   ],
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Fed policy and rate expectations",
+     "score": -1.33,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": -1.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
+    },
+    {
+     "key": "macro",
+     "name": "Inflation and jobs data",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+    },
+    {
+     "key": "usd",
+     "name": "US dollar trend",
+     "score": -2.0,
+     "weight": 0.5,
+     "ok": true,
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+    },
+    {
+     "key": "risk",
+     "name": "Risk appetite",
+     "score": -1,
+     "weight": 2.0,
+     "ok": true,
+     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
+    },
+    {
+     "key": "growth",
+     "name": "Global growth (stocks, China, copper)",
+     "score": -1.67,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+    },
+    {
+     "key": "liquidity",
+     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
+    },
+    {
+     "key": "credit",
+     "name": "Credit spreads (high-yield)",
+     "score": 1,
+     "weight": 2.0,
+     "ok": true,
+     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
+    },
+    {
+     "key": "fci",
+     "name": "Financial conditions (Chicago Fed index)",
+     "score": 0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
+    },
+    {
+     "key": "trend",
+     "name": "Price trend and momentum",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.3%."
+    }
+   ],
+   "expected": -44.9,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1865,11 +1865,11 @@
    "name": "Dow Jones futures",
    "type": "index",
    "sub": "value",
-   "price": 50280.0,
-   "chg1d": -1.05,
-   "chg5d": -4.37,
-   "composite": -35.8,
-   "bias": "Strong bearish",
+   "price": 50409.0,
+   "chg1d": 0.27,
+   "chg5d": -3.78,
+   "composite": -32.1,
+   "bias": "Bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
    "supports": [
@@ -1887,15 +1887,15 @@
      "score": -1.33,
      "weight": 1.0,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -1911,7 +1911,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1959,10 +1959,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.0%."
     }
    ],
-   "expected": -54.6,
+   "expected": -46.3,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1970,11 +1970,11 @@
    "name": "Russell 2000 futures",
    "type": "index",
    "sub": "small",
-   "price": 2721.8,
-   "chg1d": 0.39,
-   "chg5d": -4.62,
-   "composite": -36.1,
-   "bias": "Strong bearish",
+   "price": 2728.1,
+   "chg1d": 0.22,
+   "chg5d": -2.82,
+   "composite": -29.5,
+   "bias": "Bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
    "supports": [
@@ -1982,8 +1982,8 @@
     "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
    ],
    "headwinds": [
-    "Treasury and real yields",
-    "Global growth (stocks, China, copper)"
+    "Global growth (stocks, China, copper)",
+    "Treasury and real yields"
    ],
    "factors": [
     {
@@ -1992,15 +1992,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2016,7 +2016,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2064,10 +2064,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.4%."
     }
    ],
-   "expected": -51.4,
+   "expected": -36.5,
    "expected_bias": "Strong bearish"
   },
   {
@@ -2076,9 +2076,9 @@
    "type": "bond",
    "sub": "",
    "price": 105.78,
-   "chg1d": 0.16,
-   "chg5d": -0.24,
-   "composite": -33.8,
+   "chg1d": 0.0,
+   "chg5d": 0.31,
+   "composite": -22.3,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "8/8 factors live",
@@ -2097,15 +2097,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2153,21 +2153,21 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +0.6%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.6%."
     }
    ],
-   "expected": -46.9,
-   "expected_bias": "Strong bearish"
+   "expected": -21.1,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "ZB=F",
    "name": "30-year T-bond futures",
    "type": "bond",
    "sub": "",
-   "price": 106.25,
-   "chg1d": 0.59,
-   "chg5d": -0.76,
-   "composite": -33.8,
+   "price": 106.28,
+   "chg1d": 0.03,
+   "chg5d": 0.32,
+   "composite": -22.3,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "8/8 factors live",
@@ -2186,15 +2186,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2242,21 +2242,21 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +0.7%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -1.4%."
     }
    ],
-   "expected": -46.9,
-   "expected_bias": "Strong bearish"
+   "expected": -21.1,
+   "expected_bias": "Bearish"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 62479.36,
-   "chg1d": -3.72,
-   "chg5d": -8.45,
-   "composite": -20.8,
+   "price": 62734.45,
+   "chg1d": -3.33,
+   "chg5d": -8.08,
+   "composite": -17.2,
    "bias": "Bearish",
    "confidence": 64,
    "coverage": "11/11 factors live",
@@ -2275,15 +2275,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2299,7 +2299,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2323,7 +2323,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "liquidity",
@@ -2355,10 +2355,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -19.7%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -19.3%."
     }
    ],
-   "expected": -27.4,
+   "expected": -21.9,
    "expected_bias": "Bearish"
   },
   {
@@ -2366,10 +2366,10 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 1750.39,
-   "chg1d": -3.98,
-   "chg5d": -9.19,
-   "composite": -28.5,
+   "price": 1772.78,
+   "chg1d": -2.75,
+   "chg5d": -8.03,
+   "composite": -25.3,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2388,15 +2388,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2412,7 +2412,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2436,7 +2436,249 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+    },
+    {
+     "key": "btc",
+     "name": "Bitcoin lead",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
+    },
+    {
+     "key": "liquidity",
+     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
+     "score": 1,
+     "weight": 2.0,
+     "ok": true,
+     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
+    },
+    {
+     "key": "credit",
+     "name": "Credit spreads (high-yield)",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
+    },
+    {
+     "key": "fci",
+     "name": "Financial conditions (Chicago Fed index)",
+     "score": 0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
+    },
+    {
+     "key": "trend",
+     "name": "Price trend and momentum",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.2%."
+    }
+   ],
+   "expected": -29.6,
+   "expected_bias": "Bearish"
+  },
+  {
+   "symbol": "SOL-USD",
+   "name": "Solana",
+   "type": "crypto",
+   "sub": "",
+   "price": 73.34,
+   "chg1d": -2.35,
+   "chg5d": -6.09,
+   "composite": -25.3,
+   "bias": "Bearish",
+   "confidence": 67,
+   "coverage": "12/12 factors live",
+   "supports": [
+    "Crypto sentiment",
+    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
+   ],
+   "headwinds": [
+    "Price trend and momentum",
+    "Bitcoin lead"
+   ],
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Fed policy and rate expectations",
+     "score": -1.33,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
+    },
+    {
+     "key": "macro",
+     "name": "Inflation and jobs data",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+    },
+    {
+     "key": "usd",
+     "name": "US dollar trend",
+     "score": -2.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+    },
+    {
+     "key": "risk",
+     "name": "Risk appetite",
+     "score": -1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
+    },
+    {
+     "key": "growth",
+     "name": "Global growth (stocks, China, copper)",
+     "score": -1.67,
+     "weight": 0.5,
+     "ok": true,
+     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+    },
+    {
+     "key": "sent",
+     "name": "Crypto sentiment",
+     "score": 2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+    },
+    {
+     "key": "btc",
+     "name": "Bitcoin lead",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
+    },
+    {
+     "key": "liquidity",
+     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
+     "score": 1,
+     "weight": 2.0,
+     "ok": true,
+     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
+    },
+    {
+     "key": "credit",
+     "name": "Credit spreads (high-yield)",
+     "score": 1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
+    },
+    {
+     "key": "fci",
+     "name": "Financial conditions (Chicago Fed index)",
+     "score": 0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
+    },
+    {
+     "key": "trend",
+     "name": "Price trend and momentum",
+     "score": -2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -23.2%."
+    }
+   ],
+   "expected": -29.6,
+   "expected_bias": "Bearish"
+  },
+  {
+   "symbol": "XRP-USD",
+   "name": "XRP",
+   "type": "crypto",
+   "sub": "",
+   "price": 0.9608,
+   "chg1d": -2.25,
+   "chg5d": -4.82,
+   "composite": -25.3,
+   "bias": "Bearish",
+   "confidence": 67,
+   "coverage": "12/12 factors live",
+   "supports": [
+    "Crypto sentiment",
+    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
+   ],
+   "headwinds": [
+    "Price trend and momentum",
+    "Bitcoin lead"
+   ],
+   "factors": [
+    {
+     "key": "policy",
+     "name": "Fed policy and rate expectations",
+     "score": -1.33,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
+    },
+    {
+     "key": "yields",
+     "name": "Treasury and real yields",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
+    },
+    {
+     "key": "macro",
+     "name": "Inflation and jobs data",
+     "score": -1.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
+    },
+    {
+     "key": "usd",
+     "name": "US dollar trend",
+     "score": -2.0,
+     "weight": 1.0,
+     "ok": true,
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+    },
+    {
+     "key": "risk",
+     "name": "Risk appetite",
+     "score": -1,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
+    },
+    {
+     "key": "growth",
+     "name": "Global growth (stocks, China, copper)",
+     "score": -1.67,
+     "weight": 0.5,
+     "ok": true,
+     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+    },
+    {
+     "key": "sent",
+     "name": "Crypto sentiment",
+     "score": 2.0,
+     "weight": 1.5,
+     "ok": true,
+     "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2479,249 +2721,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -22.2%."
     }
    ],
-   "expected": -34.5,
-   "expected_bias": "Bearish"
-  },
-  {
-   "symbol": "SOL-USD",
-   "name": "Solana",
-   "type": "crypto",
-   "sub": "",
-   "price": 72.93,
-   "chg1d": -2.9,
-   "chg5d": -6.62,
-   "composite": -28.5,
-   "bias": "Bearish",
-   "confidence": 67,
-   "coverage": "12/12 factors live",
-   "supports": [
-    "Crypto sentiment",
-    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
-   ],
-   "headwinds": [
-    "Price trend and momentum",
-    "Bitcoin lead"
-   ],
-   "factors": [
-    {
-     "key": "policy",
-     "name": "Fed policy and rate expectations",
-     "score": -1.33,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
-    },
-    {
-     "key": "yields",
-     "name": "Treasury and real yields",
-     "score": -2.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
-    },
-    {
-     "key": "macro",
-     "name": "Inflation and jobs data",
-     "score": -1.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
-    },
-    {
-     "key": "usd",
-     "name": "US dollar trend",
-     "score": -2.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
-    },
-    {
-     "key": "risk",
-     "name": "Risk appetite",
-     "score": -1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
-    },
-    {
-     "key": "growth",
-     "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
-     "weight": 0.5,
-     "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
-    },
-    {
-     "key": "sent",
-     "name": "Crypto sentiment",
-     "score": 2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative."
-    },
-    {
-     "key": "btc",
-     "name": "Bitcoin lead",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
-    },
-    {
-     "key": "liquidity",
-     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-     "score": 1,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
-    },
-    {
-     "key": "credit",
-     "name": "Credit spreads (high-yield)",
-     "score": 1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
-    },
-    {
-     "key": "fci",
-     "name": "Financial conditions (Chicago Fed index)",
-     "score": 0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
-    },
-    {
-     "key": "trend",
-     "name": "Price trend and momentum",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -23.6%."
-    }
-   ],
-   "expected": -34.5,
-   "expected_bias": "Bearish"
-  },
-  {
-   "symbol": "XRP-USD",
-   "name": "XRP",
-   "type": "crypto",
-   "sub": "",
-   "price": 0.9664,
-   "chg1d": -1.68,
-   "chg5d": -4.26,
-   "composite": -28.5,
-   "bias": "Bearish",
-   "confidence": 67,
-   "coverage": "12/12 factors live",
-   "supports": [
-    "Crypto sentiment",
-    "Fed liquidity (balance sheet, Treasury cash, reverse repo)"
-   ],
-   "headwinds": [
-    "Price trend and momentum",
-    "Bitcoin lead"
-   ],
-   "factors": [
-    {
-     "key": "policy",
-     "name": "Fed policy and rate expectations",
-     "score": -1.33,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
-    },
-    {
-     "key": "yields",
-     "name": "Treasury and real yields",
-     "score": -2.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
-    },
-    {
-     "key": "macro",
-     "name": "Inflation and jobs data",
-     "score": -1.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "CPI 4.1% y/y (+0.54pt vs 3m ago); PCE 3.6% y/y (+0.20pt vs 3m ago); NFP 3m avg +137k; unemployment 4.1% (+0.0pt in 3m). Hot data = hawkish = bearish; soft data = dovish = bullish."
-    },
-    {
-     "key": "usd",
-     "name": "US dollar trend",
-     "score": -2.0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
-    },
-    {
-     "key": "risk",
-     "name": "Risk appetite",
-     "score": -1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "VIX 24.6, S&P 500 -6.3% from its 3-month high. Positive means risk-on."
-    },
-    {
-     "key": "growth",
-     "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
-     "weight": 0.5,
-     "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
-    },
-    {
-     "key": "sent",
-     "name": "Crypto sentiment",
-     "score": 2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative."
-    },
-    {
-     "key": "btc",
-     "name": "Bitcoin lead",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Bitcoin trend score -2. Altcoins usually follow Bitcoin."
-    },
-    {
-     "key": "liquidity",
-     "name": "Fed liquidity (balance sheet, Treasury cash, reverse repo)",
-     "score": 1,
-     "weight": 2.0,
-     "ok": true,
-     "detail": "Fed net liquidity about 5,844 bn, +0.8% in 13 weeks (balance sheet minus Treasury cash and reverse repo). Positive means easing."
-    },
-    {
-     "key": "credit",
-     "name": "Credit spreads (high-yield)",
-     "score": 1,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "High-yield spread 3.43 points, +0.12 in 1 month. Tight and tightening is risk-on. Positive means calm credit."
-    },
-    {
-     "key": "fci",
-     "name": "Financial conditions (Chicago Fed index)",
-     "score": 0,
-     "weight": 1.0,
-     "ok": true,
-     "detail": "Chicago Fed index -0.48, +0.07 in 13 weeks. Below zero is looser than average. Positive means easier conditions."
-    },
-    {
-     "key": "trend",
-     "name": "Price trend and momentum",
-     "score": -2.0,
-     "weight": 1.5,
-     "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.7%."
-    }
-   ],
-   "expected": -34.5,
+   "expected": -29.6,
    "expected_bias": "Bearish"
   },
   {
@@ -2729,10 +2729,10 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 577.52,
-   "chg1d": -3.1,
-   "chg5d": -8.25,
-   "composite": -28.5,
+   "price": 580.94,
+   "chg1d": -2.53,
+   "chg5d": -7.7,
+   "composite": -25.3,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2751,15 +2751,15 @@
      "score": -1.33,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month."
     },
     {
      "key": "yields",
      "name": "Treasury and real yields",
-     "score": -2.0,
+     "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -2775,7 +2775,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2799,7 +2799,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative."
+     "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative."
     },
     {
      "key": "btc",
@@ -2839,10 +2839,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -16.7%."
     }
    ],
-   "expected": -34.5,
+   "expected": -29.6,
    "expected_bias": "Bearish"
   }
  ],
@@ -2851,14 +2851,14 @@
    "key": "policy",
    "name": "Fed policy and rate expectations",
    "score": -1.33,
-   "detail": "Fed funds 3.88%, 2y yield 4.83% (+95bp). Market is pricing hikes. 2y moved +9bp in 1 month.",
+   "detail": "Fed funds 3.88%, 2y yield 4.80% (+92bp). Market is pricing hikes. 2y moved +3bp in 1 month.",
    "ok": true
   },
   {
    "key": "yields",
    "name": "Treasury and real yields",
-   "score": -2.0,
-   "detail": "10y real yield 2.92% (+18bp in 1m), 10y nominal 5.12% (+3bp). Falling real yields support gold and BTC.",
+   "score": -1.0,
+   "detail": "10y real yield 2.89% (+9bp in 1m), 10y nominal 5.10% (-5bp). Falling real yields support gold and BTC.",
    "ok": true
   },
   {
@@ -2872,7 +2872,7 @@
    "key": "usd",
    "name": "US dollar trend",
    "score": -2.0,
-   "detail": "DXY 103.79, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar.",
+   "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar.",
    "ok": true
   },
   {
@@ -2893,7 +2893,7 @@
    "key": "sent",
    "name": "Crypto sentiment",
    "score": 2.0,
-   "detail": "Crypto Fear and Greed 11. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
+   "detail": "Crypto Fear and Greed 10. Extreme fear counts as a contrarian positive, extreme greed as a negative.",
    "ok": true
   },
   {
@@ -3888,6 +3888,40 @@
    "SOL-USD": -28.5,
    "XRP-USD": -28.5,
    "BNB-USD": -28.5
+  },
+  {
+   "date": "2026-11-19",
+   "EURUSD=X": -54.0,
+   "GBPUSD=X": -44.4,
+   "USDJPY=X": 51.6,
+   "AUDUSD=X": -35.8,
+   "NZDUSD=X": -44.7,
+   "USDCAD=X": 35.2,
+   "USDCHF=X": 59.2,
+   "EURJPY=X": -2.6,
+   "GBPJPY=X": 10.0,
+   "EURGBP=X": -43.3,
+   "GC=F": -45.2,
+   "SI=F": -45.2,
+   "PL=F": -45.2,
+   "HG=F": -55.0,
+   "CL=F": -53.2,
+   "BZ=F": -53.2,
+   "NG=F": -15.7,
+   "ZW=F": -90.5,
+   "ZC=F": -69.1,
+   "ZS=F": -47.6,
+   "NQ=F": -31.6,
+   "ES=F": -32.8,
+   "YM=F": -32.1,
+   "RTY=F": -29.5,
+   "ZN=F": -22.3,
+   "ZB=F": -22.3,
+   "BTC-USD": -17.2,
+   "ETH-USD": -25.3,
+   "SOL-USD": -25.3,
+   "XRP-USD": -25.3,
+   "BNB-USD": -25.3
   }
  ]
 }
