@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20 01:16",
+ "generated_utc": "2026-11-20 08:54",
  "demo": false,
  "instruments": [
   {
@@ -7,9 +7,9 @@
    "name": "EUR/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.09733,
-   "chg1d": 0.01,
-   "chg5d": -0.7,
+   "price": 1.09709,
+   "chg1d": -0.01,
+   "chg5d": -0.72,
    "composite": -57.7,
    "bias": "Strong bearish",
    "confidence": 78,
@@ -53,7 +53,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -61,7 +61,7 @@
      "score": -2.0,
      "weight": 0.75,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -104,9 +104,9 @@
    "name": "GBP/USD",
    "type": "forex",
    "sub": "",
-   "price": 1.30931,
-   "chg1d": -0.41,
-   "chg5d": -1.04,
+   "price": 1.31017,
+   "chg1d": -0.34,
+   "chg5d": -0.98,
    "composite": -49.2,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -150,7 +150,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -158,7 +158,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -201,10 +201,10 @@
    "name": "USD/JPY",
    "type": "forex",
    "sub": "",
-   "price": 159.35,
-   "chg1d": -0.02,
-   "chg5d": -0.33,
-   "composite": 56.6,
+   "price": 159.03,
+   "chg1d": -0.22,
+   "chg5d": -0.53,
+   "composite": 49.1,
    "bias": "Strong bullish",
    "confidence": 67,
    "coverage": "9/9 factors live",
@@ -247,7 +247,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -255,7 +255,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -284,13 +284,13 @@
     {
      "key": "trend",
      "name": "Price trend and momentum",
-     "score": 2.0,
+     "score": 1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +1.8%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +1.6%."
     }
    ],
-   "expected": 60.4,
+   "expected": 49.1,
    "expected_bias": "Strong bullish"
   },
   {
@@ -298,9 +298,9 @@
    "name": "AUD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.66591,
-   "chg1d": -0.8,
-   "chg5d": -2.17,
+   "price": 0.66693,
+   "chg1d": -0.65,
+   "chg5d": -2.02,
    "composite": -43.4,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -344,7 +344,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -352,7 +352,7 @@
      "score": -2.0,
      "weight": 1.7,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -384,7 +384,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.0%."
     }
    ],
    "expected": -48.8,
@@ -395,9 +395,9 @@
    "name": "NZD/USD",
    "type": "forex",
    "sub": "",
-   "price": 0.54897,
-   "chg1d": 0.02,
-   "chg5d": -0.99,
+   "price": 0.55012,
+   "chg1d": 0.23,
+   "chg5d": -0.79,
    "composite": -51.5,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -441,7 +441,7 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -449,7 +449,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -481,7 +481,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -3.2%."
     }
    ],
    "expected": -60.6,
@@ -492,9 +492,9 @@
    "name": "USD/CAD",
    "type": "forex",
    "sub": "",
-   "price": 1.43363,
-   "chg1d": 0.04,
-   "chg5d": 0.53,
+   "price": 1.43299,
+   "chg1d": -0.01,
+   "chg5d": 0.48,
    "composite": 40.8,
    "bias": "Strong bullish",
    "confidence": 67,
@@ -538,7 +538,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -546,7 +546,7 @@
      "score": 2.0,
      "weight": 1.2,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -578,7 +578,7 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.4%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +2.3%."
     }
    ],
    "expected": 48.8,
@@ -589,9 +589,9 @@
    "name": "USD/CHF",
    "type": "forex",
    "sub": "",
-   "price": 0.84311,
-   "chg1d": -0.04,
-   "chg5d": 0.86,
+   "price": 0.84302,
+   "chg1d": -0.05,
+   "chg5d": 0.85,
    "composite": 56.6,
    "bias": "Strong bullish",
    "confidence": 67,
@@ -635,7 +635,7 @@
      "score": 2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "Inverse effect on this instrument. DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -643,7 +643,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -686,9 +686,9 @@
    "name": "EUR/JPY",
    "type": "forex",
    "sub": "",
-   "price": 174.83,
-   "chg1d": -0.02,
-   "chg5d": -1.04,
+   "price": 174.44,
+   "chg1d": -0.24,
+   "chg5d": -1.26,
    "composite": 0.0,
    "bias": "Neutral",
    "confidence": 0,
@@ -707,7 +707,7 @@
      "score": -2.0,
      "weight": 1.25,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -723,7 +723,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.7%."
     }
    ],
    "expected": -13.2,
@@ -734,9 +734,9 @@
    "name": "GBP/JPY",
    "type": "forex",
    "sub": "",
-   "price": 208.64,
-   "chg1d": -0.42,
-   "chg5d": -1.37,
+   "price": 208.35,
+   "chg1d": -0.56,
+   "chg5d": -1.51,
    "composite": -5.0,
    "bias": "Neutral",
    "confidence": 67,
@@ -755,7 +755,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -771,7 +771,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -0.7%."
     }
    ],
    "expected": -27.5,
@@ -782,9 +782,9 @@
    "name": "EUR/GBP",
    "type": "forex",
    "sub": "",
-   "price": 0.83783,
-   "chg1d": 0.39,
-   "chg5d": 0.34,
+   "price": 0.83716,
+   "chg1d": 0.31,
+   "chg5d": 0.26,
    "composite": -40.0,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -803,7 +803,7 @@
      "score": 2.0,
      "weight": 0.25,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "rates",
@@ -819,7 +819,7 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +0.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move +0.0%."
     }
    ],
    "expected": -26.6,
@@ -830,9 +830,9 @@
    "name": "Gold",
    "type": "commodity",
    "sub": "precious",
-   "price": 3594.0,
-   "chg1d": -3.95,
-   "chg5d": -7.5,
+   "price": 3585.1,
+   "chg1d": -2.72,
+   "chg5d": -7.75,
    "composite": -40.5,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -876,7 +876,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -884,7 +884,7 @@
      "score": 2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -916,7 +916,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -11.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -10.5%."
     }
    ],
    "expected": -40.5,
@@ -927,9 +927,9 @@
    "name": "Silver",
    "type": "commodity",
    "sub": "precious",
-   "price": 42.14,
-   "chg1d": -6.35,
-   "chg5d": -15.67,
+   "price": 42.48,
+   "chg1d": -4.15,
+   "chg5d": -13.36,
    "composite": -40.5,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -973,7 +973,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -981,7 +981,7 @@
      "score": 2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -1013,7 +1013,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -23.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -20.9%."
     }
    ],
    "expected": -40.5,
@@ -1024,9 +1024,9 @@
    "name": "Platinum",
    "type": "commodity",
    "sub": "precious",
-   "price": 1310.5,
-   "chg1d": -3.65,
-   "chg5d": -13.67,
+   "price": 1310.3,
+   "chg1d": -2.77,
+   "chg5d": -11.97,
    "composite": -40.5,
    "bias": "Strong bearish",
    "confidence": 67,
@@ -1070,7 +1070,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1078,7 +1078,7 @@
      "score": 2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "liquidity",
@@ -1110,7 +1110,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -16.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -15.7%."
     }
    ],
    "expected": -40.5,
@@ -1121,10 +1121,10 @@
    "name": "Copper",
    "type": "commodity",
    "sub": "industrial",
-   "price": 5.507,
-   "chg1d": -2.69,
-   "chg5d": -10.93,
-   "composite": -62.5,
+   "price": 5.57,
+   "chg1d": -0.98,
+   "chg5d": -8.38,
+   "composite": -65.8,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -1167,7 +1167,7 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1175,15 +1175,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1215,10 +1215,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -13.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -14.0%."
     }
    ],
-   "expected": -73.0,
+   "expected": -77.9,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1226,10 +1226,10 @@
    "name": "WTI crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 82.47,
-   "chg1d": -0.95,
-   "chg5d": -7.07,
-   "composite": -59.4,
+   "price": 81.35,
+   "chg1d": -2.24,
+   "chg5d": -8.14,
+   "composite": -63.5,
    "bias": "Strong bearish",
    "confidence": 62,
    "coverage": "8/8 factors live",
@@ -1256,7 +1256,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1264,15 +1264,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1304,10 +1304,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.1%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.2%."
     }
    ],
-   "expected": -72.5,
+   "expected": -78.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1315,10 +1315,10 @@
    "name": "Brent crude oil",
    "type": "commodity",
    "sub": "energy",
-   "price": 89.4,
-   "chg1d": -2.77,
-   "chg5d": -6.7,
-   "composite": -59.4,
+   "price": 88.3,
+   "chg1d": -4.0,
+   "chg5d": -7.87,
+   "composite": -63.5,
    "bias": "Strong bearish",
    "confidence": 62,
    "coverage": "8/8 factors live",
@@ -1345,7 +1345,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1353,15 +1353,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1393,10 +1393,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -24.3%."
     }
    ],
-   "expected": -72.5,
+   "expected": -78.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1404,10 +1404,10 @@
    "name": "Natural gas",
    "type": "commodity",
    "sub": "energy",
-   "price": 3.243,
-   "chg1d": -3.83,
-   "chg5d": -2.9,
-   "composite": -21.9,
+   "price": 3.574,
+   "chg1d": 9.36,
+   "chg5d": 10.65,
+   "composite": -26.0,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "8/8 factors live",
@@ -1434,7 +1434,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1442,15 +1442,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1482,10 +1482,10 @@
      "score": 2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +16.0%."
+     "detail": "Price is above its 50-day and above its 200-day average; 20-day move +35.4%."
     }
    ],
-   "expected": -25.6,
+   "expected": -31.8,
    "expected_bias": "Bearish"
   },
   {
@@ -1493,10 +1493,10 @@
    "name": "Wheat",
    "type": "commodity",
    "sub": "agri",
-   "price": 594.5,
-   "chg1d": 4.3,
-   "chg5d": 1.75,
-   "composite": -76.2,
+   "price": 594.0,
+   "chg1d": 2.72,
+   "chg5d": 0.13,
+   "composite": -78.6,
    "bias": "Strong bearish",
    "confidence": 100,
    "coverage": "4/4 factors live",
@@ -1512,7 +1512,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1520,15 +1520,15 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "trend",
@@ -1536,10 +1536,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.0%."
     }
    ],
-   "expected": -73.8,
+   "expected": -77.4,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1547,10 +1547,10 @@
    "name": "Corn",
    "type": "commodity",
    "sub": "agri",
-   "price": 451.25,
-   "chg1d": 3.62,
-   "chg5d": 1.98,
-   "composite": -76.2,
+   "price": 450.75,
+   "chg1d": 2.68,
+   "chg5d": 1.18,
+   "composite": -78.6,
    "bias": "Strong bearish",
    "confidence": 100,
    "coverage": "4/4 factors live",
@@ -1566,7 +1566,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1574,15 +1574,15 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "trend",
@@ -1590,10 +1590,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -2.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -1.2%."
     }
    ],
-   "expected": -73.8,
+   "expected": -77.4,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1601,10 +1601,10 @@
    "name": "Soybeans",
    "type": "commodity",
    "sub": "agri",
-   "price": 1206.25,
-   "chg1d": -0.86,
-   "chg5d": -1.69,
-   "composite": -76.2,
+   "price": 1209.25,
+   "chg1d": 0.14,
+   "chg5d": -2.72,
+   "composite": -78.6,
    "bias": "Strong bearish",
    "confidence": 100,
    "coverage": "4/4 factors live",
@@ -1620,7 +1620,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1628,15 +1628,15 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "trend",
@@ -1644,10 +1644,10 @@
      "score": -1.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.7%."
+     "detail": "Price is below its 50-day and above its 200-day average; 20-day move -3.8%."
     }
    ],
-   "expected": -95.2,
+   "expected": -98.8,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1655,10 +1655,10 @@
    "name": "Nasdaq 100 futures",
    "type": "index",
    "sub": "growth",
-   "price": 26435.75,
-   "chg1d": -2.76,
-   "chg5d": -6.87,
-   "composite": -38.5,
+   "price": 26396.25,
+   "chg1d": -0.77,
+   "chg5d": -5.84,
+   "composite": -39.6,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -1701,7 +1701,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1709,15 +1709,15 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1752,7 +1752,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -9.3%."
     }
    ],
-   "expected": -54.6,
+   "expected": -56.2,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1760,10 +1760,10 @@
    "name": "S&P 500 futures",
    "type": "index",
    "sub": "broad",
-   "price": 7179.0,
-   "chg1d": -2.2,
-   "chg5d": -5.73,
-   "composite": -39.7,
+   "price": 7175.0,
+   "chg1d": -0.31,
+   "chg5d": -5.38,
+   "composite": -41.4,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -1806,7 +1806,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1814,15 +1814,15 @@
      "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1854,10 +1854,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.8%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.3%."
     }
    ],
-   "expected": -55.2,
+   "expected": -57.8,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1865,10 +1865,10 @@
    "name": "Dow Jones futures",
    "type": "index",
    "sub": "value",
-   "price": 49111.0,
-   "chg1d": -2.31,
-   "chg5d": -6.26,
-   "composite": -37.7,
+   "price": 49216.0,
+   "chg1d": 0.07,
+   "chg5d": -6.11,
+   "composite": -40.1,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -1911,7 +1911,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -1919,15 +1919,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -1959,10 +1959,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -7.5%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -6.1%."
     }
    ],
-   "expected": -54.7,
+   "expected": -58.3,
    "expected_bias": "Strong bearish"
   },
   {
@@ -1970,10 +1970,10 @@
    "name": "Russell 2000 futures",
    "type": "index",
    "sub": "small",
-   "price": 2655.9,
-   "chg1d": -2.43,
-   "chg5d": -5.39,
-   "composite": -39.5,
+   "price": 2661.5,
+   "chg1d": -0.07,
+   "chg5d": -4.86,
+   "composite": -41.7,
    "bias": "Strong bearish",
    "confidence": 70,
    "coverage": "10/10 factors live",
@@ -2016,7 +2016,7 @@
      "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2024,15 +2024,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -2064,10 +2064,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -5.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -4.4%."
     }
    ],
-   "expected": -51.5,
+   "expected": -54.8,
    "expected_bias": "Strong bearish"
   },
   {
@@ -2075,10 +2075,10 @@
    "name": "10-year T-note futures",
    "type": "bond",
    "sub": "",
-   "price": 106.12,
-   "chg1d": 0.32,
-   "chg5d": 0.64,
-   "composite": -18.1,
+   "price": 106.17,
+   "chg1d": 0.28,
+   "chg5d": 0.94,
+   "composite": -17.1,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "8/8 factors live",
@@ -2121,15 +2121,15 @@
      "score": 2.0,
      "weight": 0.75,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": 1.67,
+     "score": 2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Inverse effect on this instrument. Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Inverse effect on this instrument. Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -2153,10 +2153,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.3%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move +0.0%."
     }
    ],
-   "expected": -14.8,
+   "expected": -13.3,
    "expected_bias": "Bearish"
   },
   {
@@ -2164,10 +2164,10 @@
    "name": "30-year T-bond futures",
    "type": "bond",
    "sub": "",
-   "price": 106.66,
-   "chg1d": 0.38,
-   "chg5d": 0.68,
-   "composite": -18.1,
+   "price": 106.78,
+   "chg1d": 0.47,
+   "chg5d": 1.42,
+   "composite": -17.1,
    "bias": "Bearish",
    "confidence": 50,
    "coverage": "8/8 factors live",
@@ -2210,15 +2210,15 @@
      "score": 2.0,
      "weight": 0.75,
      "ok": true,
-     "detail": "Inverse effect on this instrument. VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "Inverse effect on this instrument. VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": 1.67,
+     "score": 2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Inverse effect on this instrument. Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Inverse effect on this instrument. Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "liquidity",
@@ -2242,10 +2242,10 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -1.0%."
+     "detail": "Price is above its 50-day and below its 200-day average; 20-day move -0.4%."
     }
    ],
-   "expected": -14.8,
+   "expected": -13.3,
    "expected_bias": "Bearish"
   },
   {
@@ -2253,10 +2253,10 @@
    "name": "Bitcoin",
    "type": "crypto",
    "sub": "",
-   "price": 62349.14,
-   "chg1d": -1.01,
-   "chg5d": -2.77,
-   "composite": -22.6,
+   "price": 61794.68,
+   "chg1d": -0.17,
+   "chg5d": -5.38,
+   "composite": -23.2,
    "bias": "Bearish",
    "confidence": 64,
    "coverage": "11/11 factors live",
@@ -2299,7 +2299,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2307,15 +2307,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "sent",
@@ -2355,10 +2355,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -19.2%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -20.2%."
     }
    ],
-   "expected": -30.1,
+   "expected": -30.9,
    "expected_bias": "Bearish"
   },
   {
@@ -2366,10 +2366,10 @@
    "name": "Ethereum",
    "type": "crypto",
    "sub": "",
-   "price": 1762.07,
-   "chg1d": -0.71,
-   "chg5d": -0.4,
-   "composite": -30.1,
+   "price": 1751.12,
+   "chg1d": -0.23,
+   "chg5d": -4.6,
+   "composite": -30.6,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2412,7 +2412,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2420,15 +2420,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "sent",
@@ -2476,10 +2476,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -21.4%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -22.3%."
     }
    ],
-   "expected": -36.9,
+   "expected": -37.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -2487,10 +2487,10 @@
    "name": "Solana",
    "type": "crypto",
    "sub": "",
-   "price": 73.15,
-   "chg1d": -0.64,
-   "chg5d": 4.24,
-   "composite": -30.1,
+   "price": 72.51,
+   "chg1d": -0.76,
+   "chg5d": -0.23,
+   "composite": -30.6,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2533,7 +2533,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2541,15 +2541,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "sent",
@@ -2600,7 +2600,7 @@
      "detail": "Price is below its 50-day and below its 200-day average; 20-day move -24.0%."
     }
    ],
-   "expected": -36.9,
+   "expected": -37.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -2608,10 +2608,10 @@
    "name": "XRP",
    "type": "crypto",
    "sub": "",
-   "price": 0.9656,
-   "chg1d": -0.31,
-   "chg5d": 5.76,
-   "composite": -30.1,
+   "price": 0.9608,
+   "chg1d": 0.1,
+   "chg5d": -1.42,
+   "composite": -30.6,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2654,7 +2654,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2662,15 +2662,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "sent",
@@ -2718,10 +2718,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -23.0%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -23.1%."
     }
    ],
-   "expected": -36.9,
+   "expected": -37.6,
    "expected_bias": "Strong bearish"
   },
   {
@@ -2729,10 +2729,10 @@
    "name": "BNB",
    "type": "crypto",
    "sub": "",
-   "price": 579.6,
-   "chg1d": -0.5,
-   "chg5d": -0.31,
-   "composite": -30.1,
+   "price": 571.5,
+   "chg1d": -1.4,
+   "chg5d": -4.11,
+   "composite": -30.6,
    "bias": "Bearish",
    "confidence": 67,
    "coverage": "12/12 factors live",
@@ -2775,7 +2775,7 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar."
+     "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar."
     },
     {
      "key": "risk",
@@ -2783,15 +2783,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
+     "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on."
     },
     {
      "key": "growth",
      "name": "Global growth (stocks, China, copper)",
-     "score": -1.67,
+     "score": -2.0,
      "weight": 0.5,
      "ok": true,
-     "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth."
+     "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth."
     },
     {
      "key": "sent",
@@ -2839,10 +2839,10 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -17.6%."
+     "detail": "Price is below its 50-day and below its 200-day average; 20-day move -18.7%."
     }
    ],
-   "expected": -36.9,
+   "expected": -37.6,
    "expected_bias": "Strong bearish"
   }
  ],
@@ -2872,21 +2872,21 @@
    "key": "usd",
    "name": "US dollar trend",
    "score": -2.0,
-   "detail": "DXY 103.86, above its 50-day average, +2.2% in 1 month. Positive means a weaker dollar.",
+   "detail": "DXY 103.86, above its 50-day average, +2.0% in 1 month. Positive means a weaker dollar.",
    "ok": true
   },
   {
    "key": "risk",
    "name": "Risk appetite",
    "score": -2.0,
-   "detail": "VIX 28.4, S&P 500 -8.2% from its 3-month high. Positive means risk-on.",
+   "detail": "VIX 28.6, S&P 500 -8.2% from its 3-month high. Positive means risk-on.",
    "ok": true
   },
   {
    "key": "growth",
    "name": "Global growth (stocks, China, copper)",
-   "score": -1.67,
-   "detail": "Trend scores: US stocks -2, China stocks -1, copper -2. Positive means stronger global growth.",
+   "score": -2.0,
+   "detail": "Trend scores: US stocks -2, China stocks -2, copper -2. Positive means stronger global growth.",
    "ok": true
   },
   {
@@ -3927,7 +3927,7 @@
    "date": "2026-11-20",
    "EURUSD=X": -57.7,
    "GBPUSD=X": -49.2,
-   "USDJPY=X": 56.6,
+   "USDJPY=X": 49.1,
    "AUDUSD=X": -43.4,
    "NZDUSD=X": -51.5,
    "USDCAD=X": 40.8,
@@ -3938,24 +3938,24 @@
    "GC=F": -40.5,
    "SI=F": -40.5,
    "PL=F": -40.5,
-   "HG=F": -62.5,
-   "CL=F": -59.4,
-   "BZ=F": -59.4,
-   "NG=F": -21.9,
-   "ZW=F": -76.2,
-   "ZC=F": -76.2,
-   "ZS=F": -76.2,
-   "NQ=F": -38.5,
-   "ES=F": -39.7,
-   "YM=F": -37.7,
-   "RTY=F": -39.5,
-   "ZN=F": -18.1,
-   "ZB=F": -18.1,
-   "BTC-USD": -22.6,
-   "ETH-USD": -30.1,
-   "SOL-USD": -30.1,
-   "XRP-USD": -30.1,
-   "BNB-USD": -30.1
+   "HG=F": -65.8,
+   "CL=F": -63.5,
+   "BZ=F": -63.5,
+   "NG=F": -26.0,
+   "ZW=F": -78.6,
+   "ZC=F": -78.6,
+   "ZS=F": -78.6,
+   "NQ=F": -39.6,
+   "ES=F": -41.4,
+   "YM=F": -40.1,
+   "RTY=F": -41.7,
+   "ZN=F": -17.1,
+   "ZB=F": -17.1,
+   "BTC-USD": -23.2,
+   "ETH-USD": -30.6,
+   "SOL-USD": -30.6,
+   "XRP-USD": -30.6,
+   "BNB-USD": -30.6
   }
  ]
 }
