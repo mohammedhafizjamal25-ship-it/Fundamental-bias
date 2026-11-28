@@ -1,19 +1,19 @@
 {
- "generated_utc": "2026-11-27 10:40",
+ "generated_utc": "2026-11-28 02:11",
  "demo": false,
  "market": {
-  "gold": 3699.3,
-  "dxy": 103.85,
-  "btc": 61563.0,
-  "us10y": 4.91,
-  "real10y": 2.79
+  "gold": 3668.5,
+  "dxy": 104.01,
+  "btc": 60118.0,
+  "us10y": 4.85,
+  "real10y": 2.73
  },
  "assets": {
   "gold": {
-   "composite": -36.1,
+   "composite": -41.7,
    "bias": "Strong bearish",
-   "expected": -34.7,
-   "expected_bias": "Bearish",
+   "expected": -41.8,
+   "expected_bias": "Strong bearish",
    "confidence": 86,
    "factors": [
     {
@@ -22,7 +22,7 @@
      "score": -0.67,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.63% (+75bp). Market is pricing hikes. 2y moved -5bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.61% (+73bp). Market is pricing hikes. 2y moved -9bp in 1 month."
     },
     {
      "key": "yields",
@@ -30,7 +30,7 @@
      "score": -1.0,
      "weight": 2.0,
      "ok": true,
-     "detail": "10y real yield 2.79% (+13bp in 1m), 10y nominal 4.91% (-9bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.73% (+9bp in 1m), 10y nominal 4.85% (-14bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -46,15 +46,15 @@
      "score": -2.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "DXY 103.85, above its 50d average (102.21), +1.8% in 1m. 60d correlation with gold: -0.16."
+     "detail": "DXY 104.01, above its 50d average (102.21), +1.9% in 1m. 60d correlation with gold: -0.15."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": 2.0,
+     "score": 1,
      "weight": 1.0,
      "ok": true,
-     "detail": "VIX 24.7, S&P 500 -8.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 23.8, S&P 500 -6.7% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -70,7 +70,7 @@
      "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 21th percentile (3y). BTC: BTC below its 50d/200d averages, crypto Fear & Greed 12. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 21th percentile (3y). BTC: BTC below its 50d/200d averages, crypto Fear & Greed 10. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [
@@ -83,9 +83,9 @@
    "coverage": "7/7 factors live"
   },
   "btc": {
-   "composite": -61.1,
+   "composite": -52.8,
    "bias": "Strong bearish",
-   "expected": -58.4,
+   "expected": -45.9,
    "expected_bias": "Strong bearish",
    "confidence": 86,
    "factors": [
@@ -95,7 +95,7 @@
      "score": -0.67,
      "weight": 1.5,
      "ok": true,
-     "detail": "Fed funds 3.88%, 2y yield 4.63% (+75bp). Market is pricing hikes. 2y moved -5bp in 1 month."
+     "detail": "Fed funds 3.88%, 2y yield 4.61% (+73bp). Market is pricing hikes. 2y moved -9bp in 1 month."
     },
     {
      "key": "yields",
@@ -103,7 +103,7 @@
      "score": -1.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "10y real yield 2.79% (+13bp in 1m), 10y nominal 4.91% (-9bp). Falling real yields support gold and BTC."
+     "detail": "10y real yield 2.73% (+9bp in 1m), 10y nominal 4.85% (-14bp). Falling real yields support gold and BTC."
     },
     {
      "key": "macro",
@@ -119,15 +119,15 @@
      "score": -2.0,
      "weight": 1.0,
      "ok": true,
-     "detail": "DXY 103.85, above its 50d average (102.21), +1.8% in 1m. 60d correlation with gold: -0.16."
+     "detail": "DXY 104.01, above its 50d average (102.21), +1.9% in 1m. 60d correlation with gold: -0.15."
     },
     {
      "key": "risk",
      "name": "Geopolitical risk and safe haven",
-     "score": -2.0,
+     "score": -1,
      "weight": 1.5,
      "ok": true,
-     "detail": "VIX 24.7, S&P 500 -8.1% from 3m high. Fear lifts gold, hurts BTC."
+     "detail": "VIX 23.8, S&P 500 -6.7% from 3m high. Fear lifts gold, hurts BTC."
     },
     {
      "key": "demand",
@@ -143,13 +143,13 @@
      "score": 0.0,
      "weight": 1.5,
      "ok": true,
-     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 21th percentile (3y). BTC: BTC below its 50d/200d averages, crypto Fear & Greed 12. Crowded positioning is treated as a contrarian warning."
+     "detail": "Gold: gold below its 50d/200d averages, managed-money gold positioning at 21th percentile (3y). BTC: BTC below its 50d/200d averages, crypto Fear & Greed 10. Crowded positioning is treated as a contrarian warning."
     }
    ],
    "supports": [],
    "headwinds": [
     "Central banks, ETFs, physical demand",
-    "Geopolitical risk and safe haven"
+    "US dollar (DXY)"
    ],
    "coverage": "7/7 factors live"
   }
@@ -340,6 +340,11 @@
    "date": "2026-11-27",
    "gold": -36.1,
    "btc": -61.1
+  },
+  {
+   "date": "2026-11-28",
+   "gold": -41.7,
+   "btc": -52.8
   }
  ]
 }
